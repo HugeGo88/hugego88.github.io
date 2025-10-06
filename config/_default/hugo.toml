@@ -2,8 +2,8 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish"                      # UNCOMMENT THIS LINE
-baseURL = "https://hugego88.github.io/" # CHANGE THIS TO YOUR URL
+theme = "blowfish"             # UNCOMMENT THIS LINE
+baseURL = "http://tausch.one/" # CHANGE THIS TO YOUR URL
 defaultContentLanguage = "de"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
