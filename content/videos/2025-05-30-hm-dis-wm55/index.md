@@ -1,6 +1,7 @@
 +++
 date = '2025-05-30T09:10:33-07:00'
 draft = false
+tags =['Samrt Home', 'Homematic', 'Home Assistant']
 title = 'Anleitung: Homematic HM-DIS WM55 Display in Home Assistant mit Python-Skripten steuern'
 +++
 

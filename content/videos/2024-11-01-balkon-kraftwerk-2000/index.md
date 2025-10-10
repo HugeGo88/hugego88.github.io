@@ -1,6 +1,7 @@
 +++
 date = '2024-11-01T09:10:33-07:00'
 draft = false
+tags =['Samrt Home', 'Balkonkraftwerk']
 title = '2000W auf dem Dach, aber wie. Balkonkraftwerk Maximum erreichen'
 +++
 
