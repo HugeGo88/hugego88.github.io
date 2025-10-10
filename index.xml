@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HugeGo's Blog</title><link>http://tausch.one/</link><description>Recent content on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Fri, 30 May 2025 09:10:33 -0700</lastBuildDate><atom:link href="http://tausch.one/index.xml" rel="self" type="application/rss+xml"/><item><title>Anleitung: Homematic HM-DIS WM55 Display in Home Assistant mit Python-Skripten steuern</title><link>http://tausch.one/videos/hm-dis-wm55/</link><pubDate>Fri, 30 May 2025 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/hm-dis-wm55/</guid><description/><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/hm-dis-wm55/featured.png"/></item><item><title>2000W auf dem Dach, aber wie. Balkonkraftwerk Maximum erreichen</title><link>http://tausch.one/videos/balkon-kraftwerk-2000/</link><pubDate>Fri, 01 Nov 2024 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/balkon-kraftwerk-2000/</guid><description/><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/balkon-kraftwerk-2000/featured.jpg"/></item><item><title>Time to say goodbye. Warum ich openHAB hinter mich gelassen habe und ich es dennoch vermisse</title><link>http://tausch.one/videos/time_to_say_goodbye/</link><pubDate>Wed, 11 Sep 2024 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/time_to_say_goodbye/</guid><description/><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/time_to_say_goodbye/featured.jpg"/></item><item><title>Impressum</title><link>http://tausch.one/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/impressum/</guid><description/></item><item><title>Über mich</title><link>http://tausch.one/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/about/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HugeGo's Blog</title><link>http://tausch.one/</link><description>Recent content on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Fri, 30 May 2025 09:10:33 -0700</lastBuildDate><atom:link href="http://tausch.one/index.xml" rel="self" type="application/rss+xml"/><item><title>Anleitung: Homematic HM-DIS WM55 Display in Home Assistant mit Python-Skripten steuern</title><link>http://tausch.one/videos/2025-05-30-hm-dis-wm55/</link><pubDate>Fri, 30 May 2025 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/2025-05-30-hm-dis-wm55/</guid><description>&lt;h2 class="relative group"&gt;Zusammenfassung
+&lt;div id="zusammenfassung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#zusammenfassung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Das Homematic HM-DIS WM55 Status-Display ist ein nützliches Gerät, dessen volle Funktionalität in Home Assistant (HA) jedoch nicht von Haus aus gegeben ist. Dieser Beitrag fasst die technische Lösung zusammen, um das Display über die HA-Homematic-Integration mit dynamischen Inhalten wie Zuständen und Temperaturen zu versorgen.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/2025-05-30-hm-dis-wm55/featured.png"/></item><item><title>2000W auf dem Dach, aber wie. Balkonkraftwerk Maximum erreichen</title><link>http://tausch.one/videos/2024-11-01-balkon-kraftwerk-2000/</link><pubDate>Fri, 01 Nov 2024 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/2024-11-01-balkon-kraftwerk-2000/</guid><description>&lt;h2 class="relative group"&gt;Beschreibung
+&lt;div id="beschreibung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#beschreibung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Seit diesem Jahr ist es möglich sein Balkonkraftwerk auf bis zu 2000W upzugraden, aber wie stellt man das am besten an? Nicht das ich das wüsste aber mal hier meine Lösung.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/2024-11-01-balkon-kraftwerk-2000/featured.jpg"/></item><item><title>Time to say goodbye. Warum ich openHAB hinter mich gelassen habe und ich es dennoch vermisse</title><link>http://tausch.one/videos/2024-09-11-time-to-say-goodbye/</link><pubDate>Wed, 11 Sep 2024 09:10:33 -0700</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/videos/2024-09-11-time-to-say-goodbye/</guid><description>&lt;h2 class="relative group"&gt;Beschreibung
+&lt;div id="beschreibung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#beschreibung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Nach mehreren Jahren openHAB und mehreren Jahren Home Assistant wird es Zeit nun mein Fazit zu ziehen.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/videos/2024-09-11-time-to-say-goodbye/featured.jpg"/></item><item><title>Impressum</title><link>http://tausch.one/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/impressum/</guid><description>&lt;p&gt;Hugo Tausch &lt;br/&gt;
+Hauptstraße 66 &lt;br/&gt;
+74399 Walheim&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Kontakt
+&lt;div id="kontakt" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#kontakt" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Telefon: 0175/2000509 &lt;br/&gt;
+E-Mail: &lt;a
+href="mailto:info@tausch.one"&gt;info@tausch.one&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quelle:
+&lt;a
+href="https://www.e-recht24.de"
+target="_blank"
+&gt;https://www.e-recht24.de&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Über mich</title><link>http://tausch.one/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/about/</guid><description>&lt;h2 class="relative group"&gt;Lebenslauf
+&lt;div id="lebenslauf" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#lebenslauf" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Berufliche Erfahrung
+&lt;div id="berufliche-erfahrung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#berufliche-erfahrung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;05/2017 - heute&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;PLC- und .Net Entwickler sowie technischer Trainer&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
