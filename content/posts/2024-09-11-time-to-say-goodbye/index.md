@@ -2,6 +2,7 @@
 date = '2024-09-11T09:10:33-07:00'
 draft = false
 tags =['Samrt Home', 'openHAB', 'Home Assistant']
+categories = ['Youtube']
 title = 'Time to say goodbye. Warum ich openHAB hinter mich gelassen habe und ich es dennoch vermisse'
 +++
 
