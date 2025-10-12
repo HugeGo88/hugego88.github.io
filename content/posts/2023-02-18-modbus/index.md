@@ -2,6 +2,7 @@
 date = '2023-02-18T09:10:33-07:00'
 draft = false
 tags =['Samrt Home', 'openHAB', 'Modbus', 'Paradigma']
+categories = ['Youtube']
 title = 'openHAB3 (deutsch) Modbus Binding am Beispiel SystaComfort 2 von Paradigma'
 +++
 
