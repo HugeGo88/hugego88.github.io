@@ -1,0 +1,31 @@
+{{ define "main" }}
+<article>
+  {{/* Body */}}
+  <section class="flex flex-col prose dark:prose-invert lg:flex-row">
+    <div class="order-first ">
+      <div>
+        {{ partial "author2.html" . }}
+      </div>
+    </div>
+    <div class="lg:order-last">
+      <div class="article-content ">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ $translations := .AllTranslations }}
+    {{ with .File }}
+    {{ $path := .Path }}
+    {{ range $translations }}
+    {{ $lang := print "." .Lang ".md" }}
+    {{ $path = replace $path $lang ".md" }}
+    {{ end }}
+    {{ $jsPage := resources.Get "js/page.js" }}
+    {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint (site.Params.fingerprintAlgorithm | default
+    "sha512") }}
+    <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"
+      data-oid="views_{{ $path }}" data-oid-likes="likes_{{ $path }}"></script>
+    {{ end }}
+  </section>
+</article>
+{{ end }}
