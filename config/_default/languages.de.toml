@@ -16,7 +16,10 @@ dateFormat = "2 January 2006"
 
 [params.author]
 name = "Hugo Tausch"
+title = "M.Eng."
 email = "hugo@tausch.one"
+languages = "Deutsch (Muttersprache), Englisch (sehr gut)"
+hobbies = "Programmieren, Fotografie, Smart Home, Ski- und Snowboard fahren, Gitarre spielen"
 image = "https://avatars.githubusercontent.com/u/35274071?v=4"
 imageQuality = 96
 headline = "Software Entwickler | Technischer Trainer | Fotobox Betreiber | Smart Home Enthusiast | Youtuber | Blogger"

@@ -4,9 +4,11 @@
     {{ . }}
   </div>
   {{ end }}
+  {{ with .Site.Params.Author.title | markdownify }}
   <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-    M.Eng.
+    {{ . }}
   </div>
+  {{ end }}
 </div>
 <div class="flex author">
   {{ with .Site.Params.Author.image }}
@@ -22,6 +24,20 @@
     Über mich
   </div>
   {{ with .Site.Params.Author.bio | markdownify }}
+  <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . }}</div>
+  {{ end }}
+  <p />
+  {{ with .Site.Params.Author.languages | markdownify }}
+  <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+    Sprachen
+  </div>
+  <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . }}</div>
+  {{ end }}
+  <p />
+  {{ with .Site.Params.Author.hobbies | markdownify }}
+  <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+    Hobbies
+  </div>
   <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ . }}</div>
   {{ end }}
   <div class="text-2xl sm:text-lg">{{ partialCached "author-links.html" . }}</div>
