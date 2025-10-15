@@ -1,20 +1,38 @@
 ---
 title: "Über mich"
-layout: "simple"
+layout: "about"
 ---
 ## Lebenslauf
 
 ### Berufliche Erfahrung
 
-**05/2017 - heute**<br/>
-*PLC- und .Net Entwickler sowie technischer Trainer*
+**01.2020 - heute**<br/>
+*.Net Entwickler für Control plus Applikationstools*
+
+- Aufnahme von Anforderungen, sowie das dazugehörige erstellen der Entwicklungskonzepte 
+- Pflege und Entwicklung von .Net Applikationen
+
+**01.2019 - heute**<br/>
+*Übernahme administrativer Aufgaben*
+- Administration von Netzlaufwerken
+- Aufnahme von Anforderungen, sowie Umsetzung einer Online User Community
+- Aufnahme von Anforderungen, sowie Umsetzung eines Download Portals
+- Koordination von Release Tätigkeiten, sowie Entwicklung der dazugehörigen Prozesse und des Tooling
+
+**05.2018 - heute**<br/>
+*Zertifizierter technischer Trainer für den Control plus Objektbaukurs OP150*
+
+- Durchführen der sechs tätigen Control plus Schulung OP150
+- Überarbeitung der Schulungsunterlagen, sowie der Übungen
+
+**05.2017 - heute**<br/>
+*PLC Integrator für Control plus Objekte*
 
 - Integration von Hardwarekomponenten in das SPS Applikations-Framework Nexeed Control plus in IEC 61131
-- Durchführung von technischen Trainings für fortgeschrittene Nutzer des Applikations-Framework Nexeed Control plus
-- Entwickeln von .Net Applikationen in WinForms sowie WPF
-- Administration von Laufwerken, Online User Community, Download Portal
+- Aufnehmen und Umsetzen von Anforderungen für Control plus Objekte
+- 3rd Level Support für Control plus Objekte
 
-**04/2016 - 09/2016**<br/>
+**04.2016 - 09.2016**<br/>
 *Werkstudent bei der Robert Bosch GmbH in Leonberg*
 
 Entwicklung einer Anbindung eines internen Tools an das
@@ -22,7 +40,7 @@ Anforderungsmanagementsystem Doors. Unterstützende Tätigkeiten
 bei der Entwicklung eines C# Tools zur Erstellung von
 Systemarchitekturen.
 
-**04/2013 – 03/2014**<br/>
+**04.2013 – 03.2014**<br/>
 *Werkstudent bei der Robert Bosch GmbH in Ditizingen*
 
 Inbetriebnahme eines Industrieroboters mit anschließender
@@ -30,7 +48,7 @@ Anbindung an das interne Testsystem. Konzeptionierung und
 Planung erster Test mithilfe des Roboters. Auswertung der
 Testergebnisse auf Wiederholgenauigkeit und Plausibilität.
 
-**09/2012 – 03/2013**<br/>
+**09.2012 – 03.2013**<br/>
 *Praktikum bei der Audi AG in Neckarsulm*
 
 Erstellung eines Anforderungskataloges für die in der Produktion
@@ -39,15 +57,22 @@ Auswertung.
 Unterstützende Tätigkeiten bei der Sicherstellung der
 Qualitätsanforderungen an die Produktionsplanung.
 
-**03/2007 – 07/2007**<br/>
+**03.2007 – 07.2007**<br/>
 Feinwerkmechaniker bei der Erich Grau GmbH in Sersheim
 
 Instandhalten und Warten der Stanzwerkzeuge, sowie
 Vorrichtungsbau für den Sondermaschinenbau.
 
+### Zertifikate
+
+- Zertifizierter Bosch Technical Trainer
+- Control plus Entwicklung einer Anlagenapplikation (OP120)
+- Control plus Entwicklung von Objekten (OP150)
+- Control plus Anbindung einer Steuerung an MES (OP170)
+
 ### Studium und Ausbildung
 
-**09/2015 - 04/2017**<br/>
+**09.2015 - 04.2017**<br/>
 *Masterstudium, Studiengang Mechatronik*
 *HS Heilbronn, Abschluss: Master of Engineering*
 
@@ -61,7 +86,7 @@ Masterarbeit bei der Robert Bosch GmbH in Feuerbach:
 - Bildverarbeitung (Farbraum, Feature Extraktion, Segmentierung)
 - Masterprojektarbeit (Entwicklung einer iOS App zur Steuerung eines Roboters)
 
-**09/2010 – 07/2014**<br/>
+**09.2010 – 07.2014**<br/>
 *Bachelorstudium, Studiengang Mechatronik (1,7)*
 *HS Pforzheim, Abschluss: Bachelor of Engineering*
 
@@ -76,26 +101,23 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 - Automatisierungstechnik (Virtuelle Inbetriebnahme, Steuerungs- und Regelungstechnik, Industrielle BUS- Systeme, Prozessleittechnik, Introduktion to Robot programming)
 - Fahrzeugtechnik (E Mobilität, BUS-Systeme im KFZ, Anwendungen der Mechatronik)
 
-**09/2008 – 06/2010**<br/>
-*Fachgebundene Hochschulreife (2,2)*
+**09.2008 – 06.2010**<br/>
+*Fachgebundene Hochschulreife*
 *an der Technischen Oberschule Stuttgart*
 
-**09/2007 – 06/2008**<br/>
-*Mittlere Reife (1,3)*
+**09.2007 – 06.2008**<br/>
+*Mittlere Reife*
 *an der Technischen Oberschule Stuttgart*
 
-**09/2003 – 02/2007**<br/>
-*Ausbildung zum Feinwerkmechaniker (2,1)*
+**09.2003 – 02.2007**<br/>
+*Ausbildung zum Feinwerkmechaniker*
 *bei der Erich Grau GmbH in Sersheim*
 
-**09/1998 – 06/2003**<br/>
+**09.1998 – 06.2003**<br/>
 *Hauptschule*
 *Hofäckerschule Sersheim*
 
 ### Persönliche Fähigkeiten
-
-**Sprachen**
-- Englisch und deutsch: fließend in Wort und Schrift
 
 **Kommunikative Fähigkeiten**
 - Abgeschlossener Mentoring-Kurs (50h) der evangelischen Missionsschule in Unterweissach
@@ -105,12 +127,13 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 **Organisations- und Führungstalent**
 - Gute Organisationsfähigkeit, die ich in den Jahren als Leiter der Skifreizeit festigen konnte
 - Gutes interkulturelles Geschick durch meinen einjährigen internationalen Jugendfreiwilligendienst in den USA
-- Leitungskompetenz, die ich in als Vorstand der CVJM gefestigt habe
+- Leitungskompetenz, die ich in als Vorstand des CVJM Walheim gefestigt habe
 
 **Computerkenntnisse**
 - Sehr gute Kenntnisse in .Net und IEC61131 vorrangig Beckhoff
+- Gute Kenntnisse in Python und Flutter
+- Kenntnisse in Matlab, Swift und Perl
 - Sehr gute Kenntnisse in MS Office und Windows sowie macOS
-- Gute Kenntnisse in Programmiersprachen (Matlab, Python, Swift, Perl)
 
 **Zerspanungstechnik**
 - Gute Erfahrungen im Umgang mit CNC Dreh- und Fräsmaschinen. 
@@ -119,15 +142,6 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 
 **Auslandserfahrung**
 - Internationaler Freiwilligendienst und Praktikum vom 08/2014 – 07/2015 bei Pais USA, Colorado
-
-**Interessen und Hobbies**
-- Projekte 
-  - Fotobox konstruiert, gebaut, programmiert. Verleih für Fotoboxen angemeldet
-  - .Net Rechnungsprogramm geschrieben für den CVJM Walheim
-  - Flutter mobile App für den CVJM Walheim 
-- Snowboarden und Skifahren
-- Gitarre spielen
-- Fotografie und Videobearbeitung
 
 **Ehrenamt**
 - Erster Vorsitzender des CVJM Walheim
