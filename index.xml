@@ -118,4 +118,19 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;05/2017 - heute&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;PLC- und .Net Entwickler sowie technischer Trainer&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Über mich</title><link>http://tausch.one/about2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/about2/</guid><description>&lt;h2 class="relative group"&gt;Lebenslauf
+&lt;div id="lebenslauf" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#lebenslauf" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Berufliche Erfahrung
+&lt;div id="berufliche-erfahrung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#berufliche-erfahrung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;05/2017 - heute&lt;/strong&gt;&lt;br/&gt;
 &lt;em&gt;PLC- und .Net Entwickler sowie technischer Trainer&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>
