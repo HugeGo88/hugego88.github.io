@@ -7,6 +7,7 @@
     </div>
     <div class="article-content min-w-0 min-h-0 max-w-fit p-6">
       {{ .Content }}
+      {{ partial "skill.html" . }}
     </div>
 
     {{ $translations := .AllTranslations }}

@@ -67,3 +67,23 @@ applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 10
+
+# Skills section
+[params.skills]
+title = "Kenntnisse"
+
+[[params.skills.list]]
+skill = ".NET, C#, WinForms, WPF"
+skillrating = 85                  # out of 100
+
+[[params.skills.list]]
+skill = "IEC 61131-3, PLC Programming"
+skillrating = 80
+
+[[params.skills.list]]
+skill = "Python"
+skillrating = 70
+
+[[params.skills.list]]
+skill = "Flutter"
+skillrating = 70

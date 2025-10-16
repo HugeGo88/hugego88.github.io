@@ -133,12 +133,6 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 - Gutes interkulturelles Geschick durch meinen einjährigen internationalen Jugendfreiwilligendienst in den USA
 - Leitungskompetenz, die ich in als Vorstand des CVJM Walheim gefestigt habe
 
-**Computerkenntnisse**
-- Sehr gute Kenntnisse in .Net und IEC61131 vorrangig Beckhoff
-- Gute Kenntnisse in Python und Flutter
-- Kenntnisse in Matlab, Swift und Perl
-- Sehr gute Kenntnisse in MS Office und Windows sowie macOS
-
 **Zerspanungstechnik**
 - Gute Erfahrungen im Umgang mit CNC Dreh- und Fräsmaschinen. 
 - Gute Programmierkenntnisse mit DIN/ISO und Heidenhain Steuerungen
