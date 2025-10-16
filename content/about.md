@@ -90,11 +90,11 @@ Masterarbeit bei der Robert Bosch GmbH in Feuerbach:
 - Masterprojektarbeit (Entwicklung einer iOS App zur Steuerung eines Roboters)
 
 **09.2010 – 07.2014**<br/>
-*Bachelorstudium, Studiengang Mechatronik (1,7)*
+*Bachelorstudium, Studiengang Mechatronik*
 *HS Pforzheim, Abschluss: Bachelor of Engineering*
 
 Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
-„Automatisierung eines Sensierrichtungstests“ (1,5)
+„Automatisierung eines Sensierrichtungstests“
 
 - Implementierung eines TCP/IP Kommandinterpretern auf einer Stäubli CS8C Steuerung
 - Anbindung der Roboters an eine internes Testtool über Perl
@@ -145,7 +145,7 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 - Tiefbett- und Rundschleifmaschinen
 
 **Auslandserfahrung**
-- Internationaler Freiwilligendienst und Praktikum vom 08/2014 – 07/2015 bei Pais USA, Colorado
+- Internationaler Freiwilligendienst und Praktikum vom 08.2014 – 07.2015 bei Pais USA, Colorado
 
 **Ehrenamt**
 - Erster Vorsitzender des CVJM Walheim
