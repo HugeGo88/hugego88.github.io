@@ -5,6 +5,7 @@ layout: "about"
 ## Lebenslauf
 
 ### Berufliche Erfahrung
+---
 
 **01.2020 - heute**<br/>
 *.Net Entwickler für Control plus Applikationstools*
@@ -64,6 +65,7 @@ Instandhalten und Warten der Stanzwerkzeuge, sowie
 Vorrichtungsbau für den Sondermaschinenbau.
 
 ### Zertifikate
+---
 
 - Zertifizierter Bosch Technical Trainer
 - Control plus Entwicklung einer Anlagenapplikation (OP120)
@@ -71,6 +73,7 @@ Vorrichtungsbau für den Sondermaschinenbau.
 - Control plus Anbindung einer Steuerung an MES (OP170)
 
 ### Studium und Ausbildung
+---
 
 **09.2015 - 04.2017**<br/>
 *Masterstudium, Studiengang Mechatronik*
@@ -87,11 +90,11 @@ Masterarbeit bei der Robert Bosch GmbH in Feuerbach:
 - Masterprojektarbeit (Entwicklung einer iOS App zur Steuerung eines Roboters)
 
 **09.2010 – 07.2014**<br/>
-*Bachelorstudium, Studiengang Mechatronik (1,7)*
+*Bachelorstudium, Studiengang Mechatronik*
 *HS Pforzheim, Abschluss: Bachelor of Engineering*
 
 Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
-„Automatisierung eines Sensierrichtungstests“ (1,5)
+„Automatisierung eines Sensierrichtungstests“
 
 - Implementierung eines TCP/IP Kommandinterpretern auf einer Stäubli CS8C Steuerung
 - Anbindung der Roboters an eine internes Testtool über Perl
@@ -118,6 +121,7 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 *Hofäckerschule Sersheim*
 
 ### Persönliche Fähigkeiten
+---
 
 **Kommunikative Fähigkeiten**
 - Abgeschlossener Mentoring-Kurs (50h) der evangelischen Missionsschule in Unterweissach
@@ -141,7 +145,7 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 - Tiefbett- und Rundschleifmaschinen
 
 **Auslandserfahrung**
-- Internationaler Freiwilligendienst und Praktikum vom 08/2014 – 07/2015 bei Pais USA, Colorado
+- Internationaler Freiwilligendienst und Praktikum vom 08.2014 – 07.2015 bei Pais USA, Colorado
 
 **Ehrenamt**
 - Erster Vorsitzender des CVJM Walheim
