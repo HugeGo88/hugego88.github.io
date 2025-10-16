@@ -5,6 +5,7 @@ layout: "about"
 ## Lebenslauf
 
 ### Berufliche Erfahrung
+---
 
 **01.2020 - heute**<br/>
 *.Net Entwickler für Control plus Applikationstools*
@@ -64,6 +65,7 @@ Instandhalten und Warten der Stanzwerkzeuge, sowie
 Vorrichtungsbau für den Sondermaschinenbau.
 
 ### Zertifikate
+---
 
 - Zertifizierter Bosch Technical Trainer
 - Control plus Entwicklung einer Anlagenapplikation (OP120)
@@ -71,6 +73,7 @@ Vorrichtungsbau für den Sondermaschinenbau.
 - Control plus Anbindung einer Steuerung an MES (OP170)
 
 ### Studium und Ausbildung
+---
 
 **09.2015 - 04.2017**<br/>
 *Masterstudium, Studiengang Mechatronik*
@@ -118,6 +121,7 @@ Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
 *Hofäckerschule Sersheim*
 
 ### Persönliche Fähigkeiten
+---
 
 **Kommunikative Fähigkeiten**
 - Abgeschlossener Mentoring-Kurs (50h) der evangelischen Missionsschule in Unterweissach

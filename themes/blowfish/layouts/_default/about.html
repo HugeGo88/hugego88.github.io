@@ -1,13 +1,11 @@
 {{ define "main" }}
 <article>
   {{/* Body */}}
-  <section class="flex flex-col prose dark:prose-invert lg:flex-row">
-    <div class="order-first ">
-      <div>
-        {{ partial "author2.html" . }}
-      </div>
+  <section class="flex flex-col prose dark:prose-invert  max-w-full lg:flex-row">
+    <div class="order-first w-full lg:w-1/3 p-6">
+      {{ partial "author2.html" . }}
     </div>
-    <div class="lg:order-last">
+    <div class="min-w-0 min-h-0 max-w-fit">
       <div class="article-content ">
         {{ .Content }}
       </div>
