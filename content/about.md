@@ -33,6 +33,12 @@ layout: "about"
 - Aufnehmen und Umsetzen von Anforderungen für Control plus Objekte
 - 3rd Level Support für Control plus Objekte
 
+**01.2017 - heute**<br/>
+*Kleingewerbe Fotobox Verleih*
+
+- Konstruktion, bau und Programmierung einer Fotobox
+- [Verleih der Fotobox auf Stundenbasis](https://kiwi-box.de)
+
 **04.2016 - 09.2016**<br/>
 *Werkstudent bei der Robert Bosch GmbH in Leonberg*
 
