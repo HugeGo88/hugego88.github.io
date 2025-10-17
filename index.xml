@@ -110,11 +110,11 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#lebenslauf" aria-label="Anker"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;h3 class="relative group"&gt;Berufliche Erfahrung
-&lt;div id="berufliche-erfahrung" class="anchor"&gt;&lt;/div&gt;
+&lt;h3 class="relative group"&gt;&amp;#x1f4bc; Berufliche Erfahrungen
+&lt;div id="briefcase-berufliche-erfahrungen" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#berufliche-erfahrung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#briefcase-berufliche-erfahrungen" aria-label="Anker"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;hr&gt;
