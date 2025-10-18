@@ -36,7 +36,7 @@ layout: "about"
 **01.2017 - heute**<br/>
 *Kleingewerbe Fotobox Verleih*
 
-- Konstruktion, bau und Programmierung einer Fotobox
+- Konstruktion, bau und programmierung einer Fotobox
 - [Verleih der Fotobox auf Stundenbasis](https://kiwi-box.de)
 
 **04.2016 - 09.2016**<br/>
