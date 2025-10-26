@@ -130,10 +130,10 @@ Hier kann man auch schön sehen, dass man hier auch eine IF-Abfrage machen kann.
 {%- endif %}
 {% if is_state("sensor.sf_hub2000_battery_state", "Laden") -%}
   +
-{%- endif %}
+{%- endif -%}
 {% if is_state("sensor.sf_hub2000_battery_state", "Unbekannt") -%}
   ?
-{%- endif %}
+{%- endif -%}
 ````
 
 **Analoganzeige** (sensor.sf_hub2000_battery_level ist der aktuelle SoC):

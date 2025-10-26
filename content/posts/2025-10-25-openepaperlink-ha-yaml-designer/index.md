@@ -1,6 +1,6 @@
 +++
 date = '2025-10-25'
-draft = true
+draft = false
 tags = ['Home Assistant', 'Anleitung', 'OpenEpaperLink', 'HA YAML Designer', 'Epaper', 'Price tag']
 title = 'OpenEpaperLink HA YAML Designer'
 categories = ['Blog']
@@ -38,7 +38,16 @@ Die Entitäten werden dabei als Templates übergeben. Unten wird die Entität me
 {{states('sensor.egolf_battery_cruising_range')}} km
 ```
 
-## Einbindung in Home Assistant (Automation)
+## Einbindung in Home Assistant
+
+Zuerst testen wir unser neues Layout mit Hilfe der Entwicklerwerkzeuge. Nicht vergessen, davor die OpenEPaperlink Integration installieren. 
+
+![Test](images/home_assistant_test.png "Testen des Layout in den Entwicklerwerkzeugen")
+
+Hier kann jetzt "Benutzerdefiniertes Bild zeichnen" ausgewählt werden. Als Ziel geben wir einen der in OpenEPaperlink konfigurierten Tags an. Anschließend kann das Layout, welches wir vorher definiert haben in den Payload kopiert werden. Mit "Aktion ausführen" wird nun das Bild erstellt und über den Access Point an den Tag gesendet. Wie immer kann das eine Weile dauern, da die Tags, je nach Konfiguration" sich nur alle paar Minuten am AP anmelden. 
+
+Funktioniert das Zeichnen der Bilder, so kann mit den gleichen Schritten eine Automatisierung erstellt werden. 
+
 
 ## Beispiel gesamtes Layout
 
