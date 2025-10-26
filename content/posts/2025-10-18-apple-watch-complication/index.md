@@ -1,7 +1,7 @@
 +++
 date = '2025-10-18'
 draft = false
-tags = ['Apple Watch', 'Complication', 'Home Assistant']
+tags = ['Apple Watch', 'Complication', 'Home Assistant', 'Anleitung']
 title = 'Home Assistant Apple Watch Complication'
 categories = ['Youtube']
 +++
@@ -94,8 +94,12 @@ In dem untenstehenden Bild sieht man nun ein paar Beispiele für erstellte Kompl
 
 ![Komplikationen](images/ios3.PNG "Komplikationen")
 
+{{< alert >}}
+**Warning!** Ich habe noch nicht ganz verstanden wann die Komplikationen auf die Apple Watch aktualisiert werden. Manche scheinen Sofort da zu sein, andere bekomme ich einfach nicht angezeigt.
+{{< /alert >}}
+
 ## Beispiele 
-![Beispiel](images/watchface.PNG "Unten links, ist die aktuelle Differenz zwischen dem Strom der aus dem Netz gekommen ist heute und dem Strom der eingespeist wurde. Unten in der Mitte ist die Reichweite meines eGolf")
+![Beispiel](featured.PNG "Unten links, ist die aktuelle Differenz zwischen dem Strom der aus dem Netz gekommen ist heute und dem Strom der eingespeist wurde. Unten in der Mitte ist die Reichweite meines eGolf")
 
 ### Unten links
 
@@ -121,18 +125,18 @@ Hier kann man auch schön sehen, dass man hier auch eine IF-Abfrage machen kann.
 {% if is_state("sensor.sf_hub2000_battery_state", "Standby") -%}
   0
 {%- endif %}
-{% if is_state("sensor.sf_hub2000_battery_state", " Entladen") -%}
+{% if is_state("sensor.sf_hub2000_battery_state", "Entladen") -%}
   -
 {%- endif %}
-{% if is_state("sensor.sf_hub2000_battery_state", " Laden") -%}
+{% if is_state("sensor.sf_hub2000_battery_state", "Laden") -%}
   +
-{%- endif %}
+{%- endif -%}
 {% if is_state("sensor.sf_hub2000_battery_state", "Unbekannt") -%}
   ?
-{%- endif %}
+{%- endif -%}
 ````
 
-**Analogamzeige** (sensor.sf_hub2000_battery_level ist der aktuelle SoC):
+**Analoganzeige** (sensor.sf_hub2000_battery_level ist der aktuelle SoC):
 
 {{< alert >}}
 **Warning!** Die Werte müssen zwischen 0 und 1 liegen. Weshalb der SoC auch nochmal durch 100 geteilt werden muss. 
@@ -142,7 +146,7 @@ Hier kann man auch schön sehen, dass man hier auch eine IF-Abfrage machen kann.
 {{states("sensor.sf_hub2000_battery_level")|float/100}}
 ```
 
-### Unten mitte
+### Unten Mitte
 
 **Type:** Grafik kreisförmig
 
