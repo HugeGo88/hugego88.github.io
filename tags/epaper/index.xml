@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Epaper on HugeGo's Blog</title><link>http://tausch.one/tags/epaper/</link><description>Recent content in Epaper on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/epaper/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenEpaperLink HA YAML Designer</title><link>http://tausch.one/posts/2025-10-25-openepaperlink-ha-yaml-designer/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025-10-25-openepaperlink-ha-yaml-designer/</guid><description>&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Price Tags"
+srcset="
+/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured_hu_575511a1f23e8535.jpeg 330w,
+/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured_hu_a1294a4e5999eba5.jpeg 660w,
+/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured_hu_aeeba967cbc5031a.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured.jpeg"
+src="http://tausch.one/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured.jpeg"&gt;
+&lt;figcaption&gt;Beispiel für Price Tags, bespielt über Home Assistant&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Einleitung
+&lt;div id="einleitung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#einleitung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Immer mehr Supermärkte haben mittlerweile Epaper Pricetags in den Regalen hängen. Nicht nur, dass man diese Preisschilder mehr und mehr sieht, nein sie werden auch größer, gefühlt scharfer und auch Farben können mittlerweile gut dargestellt werden.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2025-10-25-openepaperlink-ha-yaml-designer/featured.jpeg"/></item></channel></rss>
