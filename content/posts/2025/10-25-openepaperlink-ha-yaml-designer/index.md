@@ -48,8 +48,37 @@ Hier kann jetzt "Benutzerdefiniertes Bild zeichnen" ausgewählt werden. Als Ziel
 
 Funktioniert das Zeichnen der Bilder, so kann mit den gleichen Schritten eine Automatisierung erstellt werden. 
 
+## Hardware
 
-## Beispiel gesamtes Layout
+### EPaper Tag
+
+Meine Tags sind Solu M vom Type ST - QR26000. Diese Tags haben eine Auflösung von 296 x 152 Pixeln und können Schwarz, Weiß und Rot darstellen. Gekauft habe diese Tags über Ebay. Die Tags waren bereits mit OpenEPaperLink geflashed. 
+
+![Price Tags](images/pricetag.jpeg "Rückseite des Price Tags")
+
+Ausgeliefert wurden sie im Deepsleep Modus. Was bedeutet, dass die Tags keine Daten empfangen. Erst wenn die Tags resetet wurden, können sie wieder Daten empfangen. 
+
+![Tag im Deep Sleep](images/deepsleep.jpeg "Hier das Tag Display. Mit dem Hinweis, dass der Tag im Deep Sleep ist und wie man in Reseten kann")
+
+Hier sieht man das Display im Deepsleep Modus. Netterweise sieht man gleich die Anleitung um diesen Tag wieder aufzuwachen. Hierfür muss man die Knopfzellen raus nehmen und dann eine der Knopfzelle verkehrt herum einlegen. Dies schließt den Stromkreis kurz und versetzt den Tag in den Reset. Werden die Batterien nun wieder eingesetzt Bootet der Stick neu. 
+
+![Leerer Tag](images/innen1.jpeg "Hier der Leere Tag. Gut zu sehen sind die Pins für die Stromversorgung und auch die Pad über welche der Tag mit einer Custom Firmware geflashed werden kann")
+
+![Zellen in Tag](images/innen2.jpeg "Hier der Tag mit den eingelegten Knopfzellen.")
+
+Ist der Tag wieder aufgeweckt sucht dieser gleich nach einem Access Point und wenn wieder gefunden wurde wird auf die Daten des selbigen gewartet. 
+
+![Waiting for Data](images/waiting.jpeg "Hier sieht man einen Tag der am AP angemeldet ist und auf Daten wartet. ")
+
+### Access Point
+
+Auch den Access Point habe ich mir zuschicken lassen. Ich hatte das Glück, dass ich jemand gefunden habe, der diese AP für einen zusammenbaut und bespielt. Eine Anleitung findet sich aber auch auf der Projektseite. Hier gibt es verschiedene Bauanleitungen. [Projekt Seite](https://openepaperlink.de/aps)
+
+![Access point](images/ap.jpeg "Access Point für OpenEPaperLink")
+
+PS: Ja ich hätte den AP und die Tags selber flashen können und ja ich hatte den AP vermutlich auch selber bauen können, aber ich die Zeit habe ich leider nicht mehr. 
+
+## Beispiel gesamtes Layout 
 
 ```
 - type: icon
