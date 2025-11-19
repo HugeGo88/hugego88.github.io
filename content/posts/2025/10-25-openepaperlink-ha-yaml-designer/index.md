@@ -1,7 +1,7 @@
 +++
 date = '2025-10-25'
 draft = false
-tags = ['Home Assistant', 'Anleitung', 'OpenEpaperLink', 'HA YAML Designer', 'Epaper', 'Price tag']
+tags = ['Home Assistant', 'Anleitung', 'OpenEpaperLink', 'HA YAML Designer', 'Epaper', 'Price tag', 'Braucht kein Mensch, muss ich haben']
 title = 'OpenEpaperLink HA YAML Designer'
 categories = ['Blog']
 +++
