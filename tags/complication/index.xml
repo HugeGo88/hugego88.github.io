@@ -1,8 +1,375 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Complication on HugeGo's Blog</title><link>http://tausch.one/tags/complication/</link><description>Recent content in Complication on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/complication/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Apple Watch Complication</title><link>http://tausch.one/posts/2025/10-18-apple-watch-complication/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-18-apple-watch-complication/</guid><description>&lt;h2 class="relative group"&gt;Der Game-Changer
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Complication on HugeGo's Blog</title><link>http://tausch.one/tags/complication/</link><description>Recent content in Complication on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/complication/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Apple Watch Complication</title><link>http://tausch.one/posts/2025/10-18-apple-watch-complication/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-18-apple-watch-complication/</guid><description>
+&lt;h2 class="relative group"&gt;Der Game-Changer
 &lt;div id="der-game-changer" class="anchor"&gt;&lt;/div&gt;
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#der-game-changer" aria-label="Anker"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;Ah, der neue eGolf hat eine App Anbindung, cool. Ah, da da gibt es auch ein Widget für iOS, mega. Wie für die Apple Watch gibt es keine Complication? Warum das denn? So oder so ähnlich geht es mir immer wieder mal. Ja cool wenn es für alles eine App gibt, cool wenn jemand sich die Mühe gemacht hat ein Widget für das iPhone zu schreiben. Leider hört es bei vielen Entwicklern da aber auf. Klar der Markt für Apple Watches ist deutlich niedriger und wie viele konfigurieren ihre Apple Watch schon.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"/></item></channel></rss>
+&lt;p&gt;Ah, der neue eGolf hat eine App Anbindung, cool. Ah, da da gibt es auch ein Widget für iOS, mega. Wie für die Apple Watch gibt es keine Complication? Warum das denn? So oder so ähnlich geht es mir immer wieder mal. Ja cool wenn es für alles eine App gibt, cool wenn jemand sich die Mühe gemacht hat ein Widget für das iPhone zu schreiben. Leider hört es bei vielen Entwicklern da aber auf. Klar der Markt für Apple Watches ist deutlich niedriger und wie viele konfigurieren ihre Apple Watch schon.&lt;/p&gt;
+&lt;p&gt;Gut, dass all diejenigen die Home Assistant am Laufen haben eine Möglichkeit haben ihre eigenen Complications zu schreiben. Ich habe so zum Beispiel für den Akku meines Balkonkraftwerks erstellt, oder eben für meinen eGolf eine Anzeige seiner Reichweite und den State of Charge.&lt;/p&gt;
+&lt;p&gt;Ja die Funktion gibt es schon länger, aber ich glaube wenige wissen davon und noch weniger wissen wie man das machen kann. Deshalb gibt es jetzt hier eine kleine Anleitung dazu. Viel Spaß damit.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Anleitung
+&lt;div id="anleitung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#anleitung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;Entity
+&lt;div id="entity" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#entity" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Zuerst brauchen wir eine Entity die wir anzeigen wollen. Eine Liste alle Entitäten findet ihr ganz normal in eurem Home Assistant unter Entitäten.&lt;/p&gt;
+&lt;p&gt;Wer schon weiß wie das geht, kann dieses Kapitel gerne überspringen. Ich denke ich erkläre hier keine Geheimnisse.&lt;/p&gt;
+&lt;p&gt;Erst gehen wir in den Einstellungen auf die &amp;lsquo;Geräte und Dienst&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Einstellungen"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_eb35a7edd2623a0e.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_bb78dc9a59fe5127.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_42b6541aaad876ef.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/einstellungen.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/einstellungen.png"&gt;
+&lt;figcaption&gt;Einstellungen&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Anschließend kann man zum Beispiel über den Entitäten Tab nach der entsprechenden Entität suchen die man in seiner Complication nachher anzeigen will.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Entitäten"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_f984486dd815c1bf.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_d5958c56afc5a670.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_b03e3bd9a2f08dda.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/entitaeten.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/entitaeten.png"&gt;
+&lt;figcaption&gt;Liste alle Entitäten&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hat man die Entität gefunden die man will, klickt man auf die selbige drauf um sich die Detailansicht anzuzeigen.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Detail"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_1b402e468f2ffda.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_936f63c57e5e294a.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_549b443d2a98aae8.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/diagram.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/diagram.png"&gt;
+&lt;figcaption&gt;Detail Ansicht einer Entität&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Nun oben rechts auf das Zahnrat klicken. Dies öffnet die Einstellungen der Entität, hier kann man dann auch gleich die Entitäts-ID der Entität raus kopieren.&lt;/p&gt;
+&lt;p&gt;Mit dem Icon kann man diesen Entitäts-ID einfach in die Zwischenablage kopieren.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Einstellung"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_cb1268e1b082026.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_c0dc45bfae2fc0b0.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_3a7bafcce75cd46f.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/detail.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/detail.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Analoganzeige&lt;/strong&gt; (sensor.sf_hub2000_battery_level ist der aktuelle SoC):&lt;/p&gt;
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Wichtig ist die Entität nicht über die UI sondern über die YAML Datei erstellt und hat keine eineindeutige ID, so sieht das Einstellungsfenster anders aus. Siehe unten.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="YAML Einstellungen"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_da24365e754f4fc2.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_6efecbd129962307.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_72418f3061266ce3.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/yaml-detail.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/yaml-detail.png"&gt;
+&lt;figcaption&gt;YAML Entitätseinstellung&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Template erstellen
+&lt;div id="template-erstellen" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#template-erstellen" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Damit wir es uns ein wenig leichter machen, nutzen wir jetzt die herausgesuchte Entität und erstellen ersteinmal ein &amp;lsquo;Template&amp;rsquo;. Dieses Template wird nachher das sein, was wir in der iOS App in die Home Assistant App kopieren werden.&lt;/p&gt;
+&lt;p&gt;Zu finden ist dieser Template Editor hier.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Template Editor"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/template_hu_c2d90035c34f3fd4.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/template_hu_48123b95dd86f010.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/template_hu_10d846341da00d99.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template.png"&gt;
+&lt;figcaption&gt;Template Editor&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Netterweise haben die Entwickler von Home Assistant uns diesen Editor schon mit ein paar Beispielen gefüllt. So sehen wir hier Beispiele für das einfach Einfügen eines Wertes, das benutzen von IF-Anweisungen und sogar Schleifen. Weiter finde ich diesen Editor einfach super, weil wir auch life das Ergebnis unserer Template sehen, siehe Bild unten.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Editor"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_ae72ac1d6b361319.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_1c7fb8625efda23f.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_69197f9f45b7f397.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template2.png"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template2.png"&gt;
+&lt;figcaption&gt;Editor mit Life-Anzeige&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hier ein einfaches Beispiel für das Durchreichen der Entitätswerte.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;The temperature is {{ my_test_json.temperature }} {{ my_test_json.unit }}.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Und hier das Beispiel für eine IF-Abfrage.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{% if is_state(&amp;#34;sun.sun&amp;#34;, &amp;#34;above_horizon&amp;#34;) -%}
+The sun rose {{ relative_time(states.sun.sun.last_changed) }} ago.
+{%- else -%}
+The sun will rise at {{ as_timestamp(state_attr(&amp;#34;sun.sun&amp;#34;, &amp;#34;next_rising&amp;#34;)) | timestamp_local }}.
+{%- endif %}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 class="relative group"&gt;Home Assistant iOS App
+&lt;div id="home-assistant-ios-app" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#home-assistant-ios-app" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;In den Einstellungen der iOS App kann man nun in den Menüpunkt &amp;lsquo;Companion-APP&amp;rsquo;&lt;/p&gt;
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Wichtig der Punkt &amp;lsquo;Companion-App&amp;rsquo; erscheint nur in der APP selber und taucht nicht auf wenn man über die Website.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Companion App"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ef1b9b226207e22c.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_c372e2f24aaf5079.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ddbc1a4fc475c137.PNG 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios1.PNG"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios1.PNG"&gt;
+&lt;figcaption&gt;Menüpunkt Companion-APP&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hier kann man nun die Komplikationen für die Apple Watch auswählen.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Apple Watch Komplikation"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_2d9a645889b0b5ed.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_a666d1dc7a2809c9.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_b9020408b67f585.PNG 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios2.PNG"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios2.PNG"&gt;
+&lt;figcaption&gt;Apple Watch Komplikationen&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;In dem untenstehenden Bild sieht man nun ein paar Beispiele für erstellte Komplikationen.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Komplikationen"
+srcset="
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_c6953d296e0b75f8.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_9ef8af6824d0dfd9.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_9f8219f56cbbbddd.PNG 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios3.PNG"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios3.PNG"&gt;
+&lt;figcaption&gt;Komplikationen&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Ich habe noch nicht ganz verstanden wann die Komplikationen auf die Apple Watch aktualisiert werden. Manche scheinen Sofort da zu sein, andere bekomme ich einfach nicht angezeigt.&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;Beispiele
+&lt;div id="beispiele" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#beispiele" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Beispiel"
+srcset="
+/posts/2025/10-18-apple-watch-complication/featured_hu_d06f8568f8322292.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/featured_hu_af4079a5ef28e131.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/featured_hu_b6e04e2d3d268596.PNG 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"
+src="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"&gt;
+&lt;figcaption&gt;Unten links, ist die aktuelle Differenz zwischen dem Strom der aus dem Netz gekommen ist heute und dem Strom der eingespeist wurde. Unten in der Mitte ist die Reichweite meines eGolf&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Unten links
+&lt;div id="unten-links" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#unten-links" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Grafik kreisförmig&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Template:&lt;/strong&gt; Offene Analoganzeige einfacher Text&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitte&lt;/strong&gt; (sensor.daily_import und sensor.daily_import ist die Einspeisung und der Netzbezug):&lt;/p&gt;
+&lt;p&gt;Da die Sensoren standardmäßig als String ausgegeben werden, caste ich hier die Strings erstmal in einen Float. Anschließend werden die beiden Float werte nochmal gerundet. Dadurch kann ich sicherstellen, dass die Werte auch &amp;lsquo;klein bleiben&amp;rsquo;. Mache ich das nicht, kann es sein, dass die Float-Werte auch gerne mal 5-6 Nachkommastellen. Das passt natürlich nicht in die Anzeige rein.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{(states(&amp;#34;sensor.daily_import&amp;#34;)|float-states(&amp;#34;sensor.daily_export&amp;#34;)|float)|round(1)}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Unten&lt;/strong&gt; (sensor.sf_hub &amp;ndash;&amp;gt; sind die Daten der Batterie, ob gerade eingespeist oder aus der Batterie Energie entnommen wird):&lt;/p&gt;
+&lt;p&gt;Hier hole ich mir den aktuellen Ladezustand des Akku. Wird er gerade geladen, so wir ein Plus unten angezeigt, beim Entladen ein Minus, wird gerade nicht geladen eine 0 und ist der Zustand unbekannt, so wird ein Fragezeichen angezeigt.&lt;/p&gt;
+&lt;p&gt;Hier kann man auch schön sehen, dass man hier auch eine IF-Abfrage machen kann.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{% if is_state(&amp;#34;sensor.sf_hub2000_battery_state&amp;#34;, &amp;#34;Standby&amp;#34;) -%}
+0
+{%- endif %}
+{% if is_state(&amp;#34;sensor.sf_hub2000_battery_state&amp;#34;, &amp;#34;Entladen&amp;#34;) -%}
+-
+{%- endif %}
+{% if is_state(&amp;#34;sensor.sf_hub2000_battery_state&amp;#34;, &amp;#34;Laden&amp;#34;) -%}
++
+{%- endif -%}
+{% if is_state(&amp;#34;sensor.sf_hub2000_battery_state&amp;#34;, &amp;#34;Unbekannt&amp;#34;) -%}
+?
+{%- endif -%}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Analoganzeige&lt;/strong&gt; (sensor.sf_hub2000_battery_level ist der aktuelle SoC):&lt;/p&gt;
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+&gt;
+&lt;span
+class="text-primary-400 pe-3 flex items-center"
+&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;span
+class="dark:text-neutral-300"
+&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Die Werte müssen zwischen 0 und 1 liegen. Weshalb der SoC auch nochmal durch 100 geteilt werden muss.&lt;/span&gt;
+&lt;/div&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{states(&amp;#34;sensor.sf_hub2000_battery_level&amp;#34;)|float/100}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 class="relative group"&gt;Unten Mitte
+&lt;div id="unten-mitte" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#unten-mitte" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Type:&lt;/strong&gt; Grafik kreisförmig&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Template:&lt;/strong&gt; Offene Analoganzeige Bild&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mitte:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Restreichweite des eGolf.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{states(&amp;#34;sensor.egolf_battery_cruising_range&amp;#34;)}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Analoganzeige:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{states(&amp;#34;sensor.egolf_battery_level&amp;#34;)|float/100}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Symbol&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Hier habe ich einfach eine passendes Symbol ausgewählt.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Youtube Short
+&lt;div id="youtube-short" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#youtube-short" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hier noch der Link meines Youtube Short Videos, dass ich vor einer Weile aufgenommen habe.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0jDdPOpFAQ8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"/></item></channel></rss>

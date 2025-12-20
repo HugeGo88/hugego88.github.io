@@ -23,4 +23,313 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#einleitung" aria-label="Anker"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;Immer mehr Supermärkte haben mittlerweile Epaper Pricetags in den Regalen hängen. Nicht nur, dass man diese Preisschilder mehr und mehr sieht, nein sie werden auch größer, gefühlt scharfer und auch Farben können mittlerweile gut dargestellt werden.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"/></item></channel></rss>
+&lt;p&gt;Immer mehr Supermärkte haben mittlerweile Epaper Pricetags in den Regalen hängen. Nicht nur, dass man diese Preisschilder mehr und mehr sieht, nein sie werden auch größer, gefühlt scharfer und auch Farben können mittlerweile gut dargestellt werden.&lt;/p&gt;
+&lt;p&gt;Ich finde diese Displays einfach faszinierend. Sie brauchen nur beim Bildupdate Strom und können somit mit ein paar kleinen Knopfzellen betrieben werden und das über Wochen und Monaten, ohne eine Batterie tauschen zu müssen.&lt;/p&gt;
+&lt;p&gt;Gut, dass ich nicht der einzige bin der diese Displays super findet. Denn sonst gäbe es das tolle Projekt &lt;a
+href="https://openepaperlink.de"
+target="_blank"
+&gt;OpenEpaperLink&lt;/a&gt; nicht. Wenn ihr an alte Prizetags ran kommt oder einfach mal die Augen auf Ebay oder Kleinanzeigen offen haltet kann man für kleines Geld an gebrauchte Tags ran kommen. Wer sich das Flashen der Tags sparen will, hält gleich nach fertig geflaschten Tags Ausschau. Gleiches gilt für den dazugehörigen Access Point, den kann man entweder den AP selber zusammen bauen, oder auch hier gibt es fertige APs die man online kaufen kann.&lt;/p&gt;
+&lt;p&gt;Jeder der sich jetzt frage wie man diese Tags den nun bespielen kann, für den habe ich gute Nachrichten. Denn wer schon ein Home Assistant am Laufen hat, der hat die halbe Miete schon. Es gibt eine Integration die man über HACS installieren kann &lt;a
+href="https://github.com/OpenEPaperLink/Home_Assistant_Integration"
+target="_blank"
+&gt;LINK&lt;/a&gt;. Hier kann man über Automationen die Tags bespielen, doch wo und wie erstelle ich das Design für diese Tags? Hier kommt das heutige Tool &lt;a
+href="https://atc1441.github.io/oepl_yaml_designer/"
+target="_blank"
+&gt;HA YAML Designer&lt;/a&gt; in spiel.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Design Einführung
+&lt;div id="design-einführung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#design-einf%c3%bchrung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Geht man auf die &lt;a
+href="https://atc1441.github.io/oepl_yaml_designer/"
+target="_blank"
+&gt;Seite&lt;/a&gt; geht der Designer mit einer Toolbox auf der linken Seite. Hier drinnen sind 16 Bausteine welche man zum Erstellen des Designs verwenden kann. Von simplen Textbausteinen, bis hin zu QR Code Generator oder sogar Graphen. Auch wenn ich als Programmierer kein großer fan von grafischen Editoren bin, muss ich zugeben, es ist einfach schön wenn man sich nicht in jede Syntax eindenken muss.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Designer"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_fc13ce8c1a709492.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_50de0d4d34ace40a.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_1a2c4f745c1aaa20.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"&gt;
+&lt;figcaption&gt;Startseite des Designers&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Wer aber erst noch ein wenig Ideen für seine Designs braucht, der hat Glück. Der Entwickler hat sich die Mühe gemacht und ein paar Beispiele designed.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Beispiele"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_743a45d9270741ef.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_506fb1c9b1c48149.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_68a18da655eb614f.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"&gt;
+&lt;figcaption&gt;Beispiel Auswahl&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Bevor man aber das Design erstellt, sollte man erste einmal die Größeneinstellungen der Tags anpassen. Das macht man unten links im Eck. Ist das geschehen kann man sich die einzelnen Elemente seines Designs zurecht ziehen. Wichtig hierfür, damit die Daten von Home Assistant später ausgegeben werden können, muss die Entität angegeben von welcher die Werte stammen sollten.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Entität"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_15d55fac5e812331.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_c90651e5f201a837.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_8633b2b03dad15ca.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"&gt;
+&lt;figcaption&gt;Beispiel für die Anbindung an Home Assistant&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Die Entitäten werden dabei als Templates übergeben. Unten wird die Entität meines eGolfs ausgelesen. Das entsprechende Feld hierfür ist das &amp;lsquo;Value (Text or HA Template)&amp;rsquo;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{states(&amp;#39;sensor.egolf_battery_cruising_range&amp;#39;)}} km
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 class="relative group"&gt;Einbindung in Home Assistant
+&lt;div id="einbindung-in-home-assistant" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#einbindung-in-home-assistant" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Zuerst testen wir unser neues Layout mit Hilfe der Entwicklerwerkzeuge. Nicht vergessen, davor die OpenEPaperlink Integration installieren.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Test"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f5aabf578a7e35f5.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f3e857ed8643128d.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_bde9a3b70faf315d.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"&gt;
+&lt;figcaption&gt;Testen des Layout in den Entwicklerwerkzeugen&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hier kann jetzt &amp;ldquo;Benutzerdefiniertes Bild zeichnen&amp;rdquo; ausgewählt werden. Als Ziel geben wir einen der in OpenEPaperlink konfigurierten Tags an. Anschließend kann das Layout, welches wir vorher definiert haben in den Payload kopiert werden. Mit &amp;ldquo;Aktion ausführen&amp;rdquo; wird nun das Bild erstellt und über den Access Point an den Tag gesendet. Wie immer kann das eine Weile dauern, da die Tags, je nach Konfiguration&amp;quot; sich nur alle paar Minuten am AP anmelden.&lt;/p&gt;
+&lt;p&gt;Funktioniert das Zeichnen der Bilder, so kann mit den gleichen Schritten eine Automatisierung erstellt werden.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Hardware
+&lt;div id="hardware" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#hardware" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;h3 class="relative group"&gt;EPaper Tag
+&lt;div id="epaper-tag" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#epaper-tag" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Meine Tags sind Solu M vom Type ST - QR26000. Diese Tags haben eine Auflösung von 296 x 152 Pixeln und können Schwarz, Weiß und Rot darstellen. Gekauft habe diese Tags über Ebay. Die Tags waren bereits mit OpenEPaperLink geflashed.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Price Tags"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_7a884cedacd10651.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_bdf30627b00c809f.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_feda34314924371a.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"&gt;
+&lt;figcaption&gt;Rückseite des Price Tags&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ausgeliefert wurden sie im Deepsleep Modus. Was bedeutet, dass die Tags keine Daten empfangen. Erst wenn die Tags resetet wurden, können sie wieder Daten empfangen.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Tag im Deep Sleep"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_b28c2fbb5b4f82b7.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_bb8d9d8798025024.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_79a9a62b6b6c018a.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"&gt;
+&lt;figcaption&gt;Hier das Tag Display. Mit dem Hinweis, dass der Tag im Deep Sleep ist und wie man in Reseten kann&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Hier sieht man das Display im Deepsleep Modus. Netterweise sieht man gleich die Anleitung um diesen Tag wieder aufzuwachen. Hierfür muss man die Knopfzellen raus nehmen und dann eine der Knopfzelle verkehrt herum einlegen. Dies schließt den Stromkreis kurz und versetzt den Tag in den Reset. Werden die Batterien nun wieder eingesetzt Bootet der Stick neu.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Leerer Tag"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_ce651ee0f457771c.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_32bb55d04e30f07a.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_695e8b2d7e83c193.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"&gt;
+&lt;figcaption&gt;Hier der Leere Tag. Gut zu sehen sind die Pins für die Stromversorgung und auch die Pad über welche der Tag mit einer Custom Firmware geflashed werden kann&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Zellen in Tag"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_d933a708a159a912.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_52ec7246b5c36378.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_1bb23ae681086db2.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"&gt;
+&lt;figcaption&gt;Hier der Tag mit den eingelegten Knopfzellen.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ist der Tag wieder aufgeweckt sucht dieser gleich nach einem Access Point und wenn wieder gefunden wurde wird auf die Daten des selbigen gewartet.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Waiting for Data"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_959c61f189f8eed5.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_38a8427c2ee8be17.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_b0ba6f30a0b9ae2a.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"&gt;
+&lt;figcaption&gt;Hier sieht man einen Tag der am AP angemeldet ist und auf Daten wartet.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Access Point
+&lt;div id="access-point" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#access-point" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Auch den Access Point habe ich mir zuschicken lassen. Ich hatte das Glück, dass ich jemand gefunden habe, der diese AP für einen zusammenbaut und bespielt. Eine Anleitung findet sich aber auch auf der Projektseite. Hier gibt es verschiedene Bauanleitungen. &lt;a
+href="https://openepaperlink.de/aps"
+target="_blank"
+&gt;Projekt Seite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Access point"
+srcset="
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_134f3de54fded7ef.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_433d6ed6fc6c6b.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_1ba532ed8e32d427.jpeg 1280w
+"
+data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"
+src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"&gt;
+&lt;figcaption&gt;Access Point für OpenEPaperLink&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;PS: Ja ich hätte den AP und die Tags selber flashen können und ja ich hatte den AP vermutlich auch selber bauen können, aber ich die Zeit habe ich leider nicht mehr.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Beispiel gesamtes Layout
+&lt;div id="beispiel-gesamtes-layout" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#beispiel-gesamtes-layout" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;- type: icon
+value: &amp;#34;mdi:car&amp;#34;
+x: 0
+y: 0
+size: 29
+fill: black
+- type: text
+value: &amp;#34;Reichweite&amp;#34;
+x: 41
+y: 8
+size: 15
+- type: text
+value: &amp;#34;Akku&amp;#34;
+x: 41
+y: 29
+size: 15
+- type: text
+value: &amp;#34;{{states(&amp;#39;sensor.egolf_battery_cruising_range&amp;#39;)}} km&amp;#34;
+x: 131
+y: 8
+size: 15
+color: red
+- type: text
+value: &amp;#34;{{states(&amp;#39;sensor.egolf_battery_level&amp;#39;)}} %&amp;#34;
+x: 131
+y: 29
+size: 15
+color: red
+- type: plot
+data:
+- entity: sensor.sf_hub2000_battery_level
+color: red
+width: 2
+ylegend:
+width: 18
+size: 9
+color: black
+yaxis:
+tick_every: 20
+color: grey
+xlegend:
+width: 18
+size: 9
+color: black
+xaxis:
+tick_every: 6
+color: grey
+x_start: 0
+y_start: 44
+x_end: 296
+y_end: 152
+duration: 86400
+font: ppb.ttf
+&lt;/code&gt;&lt;/pre&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"/></item></channel></rss>
