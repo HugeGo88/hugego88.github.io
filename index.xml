@@ -2624,33 +2624,384 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;01.2020 - heute&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;.Net Entwickler für Control plus Applikationstools&lt;/em&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Mehr anzeigen&lt;/summary&gt;
+&lt;ol class="border-s-2 border-primary-500 dark:border-primary-300 list-none"&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"&gt;
+&lt;path fill="currentColor" d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/&gt;&lt;/svg&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Jan 2020-heute&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+C# Entwickler
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
 &lt;ul&gt;
 &lt;li&gt;Aufnahme von Anforderungen sowie das dazugehörige Erstellen der Entwicklungskonzepte&lt;/li&gt;
 &lt;li&gt;Pflege und Entwicklung von .Net Applikationen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;01.2019 - heute&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Übernahme administrativer Aufgaben&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"&gt;
+&lt;path fill="currentColor" d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.7 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/&gt;&lt;/svg&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Jan 2019-heute&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Administrative Aufgaben
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
 &lt;ul&gt;
 &lt;li&gt;Administration von Netzlaufwerken&lt;/li&gt;
 &lt;li&gt;Aufnahme von Anforderungen sowie die Umsetzung einer Online User Community&lt;/li&gt;
 &lt;li&gt;Aufnahme von Anforderungen und die Umsetzung eines Download Portals&lt;/li&gt;
 &lt;li&gt;Koordination von Release Tätigkeiten sowie die Entwicklung der dazugehörigen Prozesse und das Tooling&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;05.2018 - heute&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Zertifizierter technischer Trainer für den Control plus Objektbaukurs OP150&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"&gt;&lt;path fill="currentColor" d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Mai 2018 - heute&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Technischer Trainer
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
 &lt;ul&gt;
 &lt;li&gt;Durchführen der sechs tägigen Control plus Schulung OP150&lt;/li&gt;
 &lt;li&gt;Überarbeitung der Schulungsunterlagen sowie der Übungen&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;05.2017 - heute&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;PLC Integrator für Control plus Objekte&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"&gt;&lt;path fill="currentColor" d="M290.7 311L95 269.7 86.8 309l195.7 41zm51-87L188.2 95.7l-25.5 30.8 153.5 128.3zm-31.2 39.7L129.2 179l-16.7 36.5L293.7 300zM262 32l-32 24 119.3 160.3 32-24zm20.5 328h-200v39.7h200zm39.7 80H42.7V320h-40v160h359.5V320h-40z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Mai 2017 - Dez 2019&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+SPS Entwickler
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
 &lt;ul&gt;
 &lt;li&gt;Integration von Hardwarekomponenten in das SPS Applikations-Framework Nexeed Control plus in IEC 61131&lt;/li&gt;
 &lt;li&gt;Aufnehmen und Umsetzen von Anforderungen für Control plus Objekte&lt;/li&gt;
 &lt;li&gt;3rd Level Support für Control plus Objekte&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;h3 class="relative group"&gt;&amp;#x1f4da; Studium und Ausbildung
+&lt;div id="books-studium-und-ausbildung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#books-studium-und-ausbildung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;hr&gt;
+&lt;details&gt;
+&lt;summary&gt;Mehr anzeigen&lt;/summary&gt;
+&lt;ol class="border-s-2 border-primary-500 dark:border-primary-300 list-none"&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 2015 - Apr 2017&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Master Studium
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+Masterstudium, Studiengang Mechatronik HS Heilbronn, Abschluss: Master of Engineering
+&lt;/p&gt;
+&lt;p&gt;
+Masterarbeit bei der Robert Bosch GmbH in Feuerbach: “Entwicklung einer intuitiven, sensoradaptiven Roboterprogrammierung in hochintegrierten Industrie 4.0 Automatisierungssystemen”
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integration der 3rd Party Komponente von Artiminds ROBOTICS in das Nexeed Control plus Applikationsframework&lt;/li&gt;
+&lt;li&gt;Untersuchung der möglichen Anwendungsfälle für die entwickelte Anbindung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;
+Studienschwerpunkte:
+&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Digitale Signalverarbeitung (Kalman-Filter, Grundlagen und Umsetzung digitaler Filter)&lt;/li&gt;
+&lt;li&gt;Bildverarbeitung (Farbraum, Feature Extraktion, Segmentierung)&lt;/li&gt;
+&lt;li&gt;Masterprojektarbeit ("Entwicklung einer iOS App zur Steuerung eines Roboters")&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 2010 – Jul 2014&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Bachelor Studium
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+Bachelorstudium, Studiengang Mechatronik HS Pforzheim, Abschluss: Bachelor of Engineering
+&lt;/p&gt;
+&lt;p&gt;
+Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen: „Automatisierung eines Sensierrichtungstests“
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementierung eines TCP/IP Kommandinterpreters auf einer Stäubli CS8C Steuerung&lt;/li&gt;
+&lt;li&gt;Anbindung eines Stäubli Roboters in ein auf Perl basierendes internes Testframework&lt;/li&gt;
+&lt;li&gt;Implementierung verschiedener Sensorrichtungstests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;strong&gt;
+Studienschwerpunkte:
+&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatisierungstechnik (Virtuelle Inbetriebnahme, Steuerungs- und Regelungstechnik, Industrielle BUS- Systeme, Prozessleittechnik, Introduction to Robot programming)&lt;/li&gt;
+&lt;li&gt;Fahrzeugtechnik (E Mobilität, BUS-Systeme im KFZ, Anwendungen der Mechatronik)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 2008 - Jun 2010&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Fachgebundene Hochschulreife
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+an der Technischen Oberschule Stuttgart
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 2007 - Jun 2008&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Mittlere Reife
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+an der Technischen Oberschule Stuttgart
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 2007 - Jun 2008&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Ausbildung
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+zum Feinwerkmechaniker
+&lt;/p&gt;
+&lt;p&gt;
+bei der Erich Grau GmbH in Sersheim
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;div class="flex"&gt;
+&lt;div
+class="bg-primary-500 dark:bg-primary-300 text-neutral-50 dark:text-neutral-700 min-w-[30px] h-8 text-2xl flex items-center justify-center rounded-full ltr:-ml-12 rtl:-mr-[79px] mt-5"&gt;
+&lt;span class="relative block icon"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"&gt;&lt;path fill="currentColor" d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="block p-6 rounded-lg shadow-2xl flex-1 ms-6 mb-10 break-words"&gt;
+&lt;div class="flex justify-between"&gt;
+&lt;h2 class="mt-0"&gt;Sep 1998 - Jun 2003&lt;/h2&gt;
+&lt;h3 class=""&gt;
+&lt;span class="flex cursor-pointer"&gt;
+&lt;span
+class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
+Hauptschule
+&lt;/span&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div class="mb-6"&gt;
+&lt;p&gt;
+an der Hofäckerschule in Sersheim
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/details&gt;
+&lt;h3 class="relative group"&gt;&amp;#x1f4bb; Persönliche Fähigkeiten
+&lt;div id="computer-persönliche-fähigkeiten" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#computer-pers%c3%b6nliche-f%c3%a4higkeiten" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;hr&gt;
+&lt;details&gt;
+&lt;summary&gt;Mehr anzeigen&lt;/summary&gt;
+&lt;p&gt;&lt;strong&gt;Kommunikative Fähigkeiten&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Abgeschlossener Mentoring-Kurs (50h) der evangelischen Missionsschule in Unterweissach&lt;/li&gt;
+&lt;li&gt;Gute kommunikative Fähigkeiten, die ich durch mein ehrenamtliches Engagement als Leiter der Jungschar-Skifreizeit im Jugendwerk Vaihingen/Enz erworben habe&lt;/li&gt;
+&lt;li&gt;Gute Kontaktfähigkeit durch mein aktives ehrenamtliches Engagement in der Jugendarbeit der evangelischen Kirchengemeinde Sersheim und Walheim&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Organisations- und Führungskompetenz&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gute Organisationsfähigkeit, die ich in den Jahren als Leiter der Skifreizeit festigen konnte&lt;/li&gt;
+&lt;li&gt;Gutes interkulturelles Geschick, durch meinen einjährigen internationalen Jugendfreiwilligendienst in den USA&lt;/li&gt;
+&lt;li&gt;Leitungskompetenz, die ich in meiner Funktion als Vorsitzender des CVJM Walheim gefestigt habe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Zerspanungstechnik&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gute Erfahrungen im Umgang mit CNC Dreh- und Fräsmaschinen.&lt;/li&gt;
+&lt;li&gt;Gute Programmierkenntnisse mit DIN/ISO und Heidenhain Steuerungen&lt;/li&gt;
+&lt;li&gt;Geschulter Umgang mit Flachbett- und Rundschleifmaschinen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Auslandserfahrung&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internationaler Freiwilligendienst und Praktikum vom 08.2014 – 07.2015 bei Pais USA, Colorado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Ehrenamt&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Erster Vorsitzender des CVJM Walheim&lt;/li&gt;
+&lt;li&gt;Jahrzentelanges ehrenamtliches Engagement in der evangelischen Jugendarbeit in Sersheim und Walheim&lt;/li&gt;
+&lt;li&gt;Ehemaliges Mitglied des Bezirksarbeitskreises des Jugendwerks Vaihingen/Enz&lt;/li&gt;
+&lt;li&gt;Ehemaliger Leiter der Jungschar Skifreizeit des Jugendwerks Vaihingen/Enz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/details&gt;
+&lt;h3 class="relative group"&gt;🔧 Sonstige Berufliche Tätigkeiten
+&lt;div id="-sonstige-berufliche-tätigkeiten" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#-sonstige-berufliche-t%c3%a4tigkeiten" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;hr&gt;
+&lt;details&gt;
+&lt;summary&gt;Mehr anzeigen&lt;/summary&gt;
 &lt;p&gt;&lt;strong&gt;01.2017 - heute&lt;/strong&gt;&lt;br/&gt;
 &lt;em&gt;Kleingewerbe Fotobox Verleih&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -2685,6 +3036,7 @@ target="_blank"
 &lt;li&gt;Instandhalten und Warten der Stanzwerkzeuge&lt;/li&gt;
 &lt;li&gt;Unterstützung im Vorrichtungs- und Sondermaschinenbau&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/details&gt;
 &lt;h3 class="relative group"&gt;&amp;#x1f4ce; Zertifikate
 &lt;div id="paperclip-zertifikate" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -2693,96 +3045,13 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/span&gt;
 &lt;/h3&gt;
 &lt;hr&gt;
+&lt;details&gt;
+&lt;summary&gt;Mehr anzeigen&lt;/summary&gt;
 &lt;ul&gt;
 &lt;li&gt;Zertifizierter Bosch Technical Trainer&lt;/li&gt;
 &lt;li&gt;Control plus Entwicklung einer Anlagenapplikation (OP120)&lt;/li&gt;
 &lt;li&gt;Control plus Entwicklung von Objekten (OP150)&lt;/li&gt;
 &lt;li&gt;Control plus Anbindung einer Steuerung an MES (OP170)&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 class="relative group"&gt;&amp;#x1f4da; Studium und Ausbildung
-&lt;div id="books-studium-und-ausbildung" class="anchor"&gt;&lt;/div&gt;
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#books-studium-und-ausbildung" aria-label="Anker"&gt;#&lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;09.2015 - 04.2017&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Masterstudium, Studiengang Mechatronik&lt;/em&gt;
-&lt;em&gt;HS Heilbronn, Abschluss: Master of Engineering&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Masterarbeit bei der Robert Bosch GmbH in Feuerbach:
-&amp;ldquo;Entwicklung einer intuitiven, sensoradaptiven Roboterprogrammierung in hochintegrierten Industrie 4.0 Automatisierungssystemen&amp;rdquo;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Integration der 3rd Party Komponente von Artiminds ROBOTICS in das Nexeed Control plus Applikationsframework&lt;/li&gt;
-&lt;li&gt;Untersuchung der möglichen Anwendungsfälle für die entwickelte Anbindung&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Studienschwerpunkte:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Digitale Signalverarbeitung (Kalman-Filter, Grundlagen und Umsetzung digitaler Filter)&lt;/li&gt;
-&lt;li&gt;Bildverarbeitung (Farbraum, Feature Extraktion, Segmentierung)&lt;/li&gt;
-&lt;li&gt;Masterprojektarbeit (&amp;ldquo;Entwicklung einer iOS App zur Steuerung eines Roboters&amp;rdquo;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;09.2010 – 07.2014&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Bachelorstudium, Studiengang Mechatronik&lt;/em&gt;
-&lt;em&gt;HS Pforzheim, Abschluss: Bachelor of Engineering&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Bachelorarbeit bei der Robert Bosch GmbH in Ditzingen:
-„Automatisierung eines Sensierrichtungstests“&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Implementierung eines TCP/IP Kommandinterpreters auf einer Stäubli CS8C Steuerung&lt;/li&gt;
-&lt;li&gt;Anbindung eines Stäubli Roboters in ein auf Perl basierendes internes Testframework&lt;/li&gt;
-&lt;li&gt;Implementierung verschiedener Sensorrichtungstests&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Studienschwerpunkte:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatisierungstechnik (Virtuelle Inbetriebnahme, Steuerungs- und Regelungstechnik, Industrielle BUS- Systeme, Prozessleittechnik, Introduktion to Robot programming)&lt;/li&gt;
-&lt;li&gt;Fahrzeugtechnik (E Mobilität, BUS-Systeme im KFZ, Anwendungen der Mechatronik)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;09.2008 – 06.2010&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Fachgebundene Hochschulreife&lt;/em&gt;
-&lt;em&gt;an der Technischen Oberschule Stuttgart&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;09.2007 – 06.2008&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Mittlere Reife&lt;/em&gt;
-&lt;em&gt;an der Technischen Oberschule Stuttgart&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;09.2003 – 02.2007&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Ausbildung zum Feinwerkmechaniker&lt;/em&gt;
-&lt;em&gt;bei der Erich Grau GmbH in Sersheim&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;09.1998 – 06.2003&lt;/strong&gt;&lt;br/&gt;
-&lt;em&gt;Hauptschule&lt;/em&gt;
-&lt;em&gt;Hofäckerschule Sersheim&lt;/em&gt;&lt;/p&gt;
-&lt;h3 class="relative group"&gt;&amp;#x1f4bb; Persönliche Fähigkeiten
-&lt;div id="computer-persönliche-fähigkeiten" class="anchor"&gt;&lt;/div&gt;
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#computer-pers%c3%b6nliche-f%c3%a4higkeiten" aria-label="Anker"&gt;#&lt;/a&gt;
-&lt;/span&gt;
-&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Kommunikative Fähigkeiten&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Abgeschlossener Mentoring-Kurs (50h) der evangelischen Missionsschule in Unterweissach&lt;/li&gt;
-&lt;li&gt;Gute kommunikative Fähigkeiten, die ich durch mein ehrenamtliches Engagement als Leiter der Jungschar-Skifreizeit im Jugendwerk Vaihingen/Enz erworben habe&lt;/li&gt;
-&lt;li&gt;Gute Kontaktfähigkeit durch mein aktives ehrenamtliches Engagement in der Jugendarbeit der evangelischen Kirchengemeinde Sersheim und Walheim&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Organisations- und Führungskompetenz&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gute Organisationsfähigkeit, die ich in den Jahren als Leiter der Skifreizeit festigen konnte&lt;/li&gt;
-&lt;li&gt;Gutes interkulturelles Geschick, durch meinen einjährigen internationalen Jugendfreiwilligendienst in den USA&lt;/li&gt;
-&lt;li&gt;Leitungskompetenz, die ich in meiner Funktion als Vorsitzender des CVJM Walheim gefestigt habe&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Zerspanungstechnik&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gute Erfahrungen im Umgang mit CNC Dreh- und Fräsmaschinen.&lt;/li&gt;
-&lt;li&gt;Gute Programmierkenntnisse mit DIN/ISO und Heidenhain Steuerungen&lt;/li&gt;
-&lt;li&gt;Geschulter Umgang mit Flachbett- und Rundschleifmaschinen&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Auslandserfahrung&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Internationaler Freiwilligendienst und Praktikum vom 08.2014 – 07.2015 bei Pais USA, Colorado&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Ehrenamt&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Erster Vorsitzender des CVJM Walheim&lt;/li&gt;
-&lt;li&gt;Jahrzentelanges ehrenamtliches Engagement in der evangelischen Jugendarbeit in Sersheim und Walheim&lt;/li&gt;
-&lt;li&gt;Ehemaliges Mitglied des Bezirksarbeitskreises des Jugendwerks Vaihingen/Enz&lt;/li&gt;
-&lt;li&gt;Ehemaliger Leiter der Jungschar Skifreizeit des Jugendwerks Vaihingen/Enz&lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/details&gt;</description></item></channel></rss>
