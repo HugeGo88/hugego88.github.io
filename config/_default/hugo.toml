@@ -70,7 +70,7 @@ weight = 10
 
 # Skills section
 [params.skills]
-title = "Kenntnisse"
+title = "🧑🏻‍💻 Programmiersprachen"
 
 [[params.skills.list]]
 skill = ".NET, C#, WinForms, WPF"
