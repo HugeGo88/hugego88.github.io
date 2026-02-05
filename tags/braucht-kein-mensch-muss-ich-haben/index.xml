@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Braucht Kein Mensch, Muss Ich Haben on HugeGo's Blog</title><link>http://tausch.one/tags/braucht-kein-mensch-muss-ich-haben/</link><description>Recent content in Braucht Kein Mensch, Muss Ich Haben on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/braucht-kein-mensch-muss-ich-haben/index.xml" rel="self" type="application/rss+xml"/><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Braucht Kein Mensch, Muss Ich Haben on HugeGo's Blog</title><link>http://tausch.one/tags/braucht-kein-mensch-muss-ich-haben/</link><description>Recent content in Braucht Kein Mensch, Muss Ich Haben on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/braucht-kein-mensch-muss-ich-haben/index.xml" rel="self" type="application/rss+xml"/><item><title>Erster eindruck HmIP-WRC6-230</title><link>http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/</guid><description>
+&lt;h2 class="relative group"&gt;Man hab ich da lange drauf gewartet
+&lt;div id="man-hab-ich-da-lange-drauf-gewartet" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#man-hab-ich-da-lange-drauf-gewartet" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Seit Homematic die Schaltgruppe HmIPW-WRC6 raus gebracht hatte fand ich das ein sehr spannendes Produkt, einziger Nachteil. Die Schaltgruppe funktioniert leider nur mit Homematic IP Wired. Damit war das Thema für leider sehr schnell erledigt. Nirgends habe ich Homematic IP Wired verbaut und da ich auch keine Kabel in der Wohnung verlegen wollte war das für mich ein K.O. Kriterium. Und so musst ich auf den kleinen Bruder ohne LEDs ausweichen, der einzige Vorteil hier, der war Batteriebetrieben, was den Vorteil hat, dass man ihn überall anbringen kann.&lt;br&gt;
+Anscheinend war ich wohl nicht der einzige der der Meinung war, dass diese Schaltgruppe für Homematic IP (ohne Wired) gemacht gehört. Letzte Woche war es dann soweit, es gab eine Pressemitteilung, dass die Schaltgruppe nun auch nur über Funk (Homematic IP) zu haben ist.&lt;br&gt;
+Ein klarer Fall für die Kategorie &amp;lsquo;Braucht kein Mensch, muss ich haben&amp;rsquo;. Also in den Warenkorb gelegt, gewartet, angeschlossen und ausprobiert.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Mein Setup
+&lt;div id="mein-setup" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mein-setup" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ich verwende Seit Anfang des Jahres OpenCCU, ein Opensource Projekt, welches mithilfe des Homematic USB Sticks eine ganze CCU emulieren kann. Das Ganze lebt als Addon/App in meinem Home Assistant. (ich muss sagen, OpenCCU läuft auf meiner Ugreen NAS mit Proxmox soviel besser und schneller wie meine alte CCU2, dass ich mich frage warum ich nicht früher umgestiegen bin).&lt;br&gt;
+Warum erwähne ich das, kurz bevor die HmIP-WRC6-230 Schaltgruppe bei mir daheim eingetroffen ist, gab es ein offizielles Release von OpenCCU in dem diese Schaltgruppe nun unterstützt wird. Wie das mit der CCU2 oder 3 aussieht kann ich nicht sagen. Aber ich schätze mal die werden auch ein Release hierfür bekommen haben.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Einbindung
+&lt;div id="einbindung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#einbindung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Nach der Installation im Flur habe ich wie immer den Einrichtungstanz der Homematic Komponenten getanzt. Um ehrlich zu sein, entweder stelle ich mich da immer dumm an, oder es ist echt jedes mal ein gefrickel. In jedem Fall hat es für meinen Fall mal wieder zu lange gedauert, bis der Taster erkannt wurde. Sei es drum, ich habe den Taster am Ende in meine OpenCCU rein bekommen. Und wie es sich gehört, wurde dieser dann über meine Homematic IP Integration von Home Assistant auch gleich erkannt.&lt;br&gt;
+Die LEDs waren sofort schaltbar, Farben konnten geändert werden und auch die Effekte, blinken oder billow (ein Pulsieren) der LEDs konnte in verschiedenen Geschwindigkeiten eingestellt werden. Super, genau deshalb wollte ich die Kiste ja.&lt;br&gt;
+Das Auslesen der Tasten war wie immer ein wenig ein gefrickel. Man muss wie auch bei anderen Tastern ein Programm einlernen welches die Tasten ausliest. Das Programm in der CCU muss an sich nichts machen, aber es müssen die Taster eben hinterlegt sein. Ich habe dafür bei mir einfach immer gesagt, dass ich einen kurzen Tastendruck auslesen will, mehr braucht es nicht. In Home Asssistant wird dann nachher immer noch schon differenziert ob es sich um einen kurzen oder langen Tastendruck handelt.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Einstellungen Programm CCU"
+srcset="
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_58c8ff138d202064.png 330w,
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_e293037e4c1244e.png 660w,
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_e4f978584c3a46e9.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/openccu.png"
+src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/openccu.png"&gt;
+&lt;figcaption&gt;Einstellungen CCU Programme&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div id="gallery-97412d1ee311c7602da86d3b9fd91167" class="gallery"&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/allLeds.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/ledColor.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/ledEffects.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/buttons.png" class="grid-w50" /&gt;
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;Der erste Schuss
+&lt;div id="der-erste-schuss" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#der-erste-schuss" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wie immer bei diesen &amp;lsquo;Boa geil, das muss ich haben&amp;rsquo;-Aktionen suche ich jetzt nachträglich noch nach einem guten Einsatzzweck für diesen Schalter. Meine ersten Ideen waren. Status der Wallbox anzeigen, Status der Lichter, welche nicht automatisch ausgehen und der Status der Fenster.&lt;br&gt;
+Das Ergebnis kann man hier im Bild sehen. Wobei ich beim Laden des E-Autos die LED pulsieren lasse. Ist die Wallbox an, lädt aber nicht leuchtet die LED einfach grün und wenn die Wallbox aus ist, dann ist die LED eben rot. Sind irgendwo noch Fenster offen dann leuchtet die LED rot und so weiter. Ja bei den Fenster bringt mir die Taste aktuell nichts, aber vielleicht stelle ich bei uns in den Flur noch einen Lautsprecher der mir dann später über Text-To-Speech dann noch sagen kann welche Fenster noch offen sind, nachdem ich den Knopf gedrückt habe. Aber ihr sehr, es gibt noch Knöpfe die danach schreien belegt zu werden.
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Aktueller Einsatz"
+srcset="
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_22eb0d094be5119e.png 330w,
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_2149cbc5ab356a52.png 660w,
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_de5b77300a311875.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"
+src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Youtube
+&lt;div id="youtube" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#youtube" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wird demnächst noch erscheinen&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"/></item><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
 &lt;h2 class="relative group"&gt;Ziel
 &lt;div id="ziel" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -1069,9 +1155,9 @@ decoding="async"
 fetchpriority="low"
 alt="Price Tags"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_575511a1f23e8535.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_a1294a4e5999eba5.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_aeeba967cbc5031a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_7bade6189e1baced.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_c399ff19b9dcf5d1.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_3b6fb512e4b80cb3.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"&gt;
@@ -1118,9 +1204,9 @@ decoding="async"
 fetchpriority="low"
 alt="Designer"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_fc13ce8c1a709492.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_50de0d4d34ace40a.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_1a2c4f745c1aaa20.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_83d62df3d2ff952a.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_94d86e6462677bad.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_c93225cad95c4867.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"&gt;
@@ -1137,9 +1223,9 @@ decoding="async"
 fetchpriority="low"
 alt="Beispiele"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_743a45d9270741ef.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_506fb1c9b1c48149.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_68a18da655eb614f.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_de3f08d33ca21840.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_4bf74ea0510f16ac.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_8c7a3b9f253eb88d.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"&gt;
@@ -1156,9 +1242,9 @@ decoding="async"
 fetchpriority="low"
 alt="Entität"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_15d55fac5e812331.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_c90651e5f201a837.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_8633b2b03dad15ca.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_dc380d2aa076ab9f.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_1f409bdf4ecd1b16.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_7a7f88895890f8b9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"&gt;
@@ -1185,9 +1271,9 @@ decoding="async"
 fetchpriority="low"
 alt="Test"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f5aabf578a7e35f5.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f3e857ed8643128d.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_bde9a3b70faf315d.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_7c4fe61e20164ff.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_bf473ce83090cee4.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_1d9b875fcbcec528.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"&gt;
@@ -1220,9 +1306,9 @@ decoding="async"
 fetchpriority="low"
 alt="Price Tags"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_7a884cedacd10651.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_bdf30627b00c809f.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_feda34314924371a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_15976a60c5354c23.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_d2e9ff73178cb19e.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_e6b6bc20468ca0f6.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"&gt;
@@ -1239,9 +1325,9 @@ decoding="async"
 fetchpriority="low"
 alt="Tag im Deep Sleep"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_b28c2fbb5b4f82b7.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_bb8d9d8798025024.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_79a9a62b6b6c018a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_c1c37f88345ef017.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_4189fef751d4f03.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_b02b7378e049ae1e.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"&gt;
@@ -1258,9 +1344,9 @@ decoding="async"
 fetchpriority="low"
 alt="Leerer Tag"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_ce651ee0f457771c.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_32bb55d04e30f07a.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_695e8b2d7e83c193.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_133045ddf3395e33.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_a314c5a93ac0ab02.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_6e52037b98771e98.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"&gt;
@@ -1276,9 +1362,9 @@ decoding="async"
 fetchpriority="low"
 alt="Zellen in Tag"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_d933a708a159a912.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_52ec7246b5c36378.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_1bb23ae681086db2.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_1ebd224cb95dc32a.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_a52a85fad1b41ffa.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_a2ba1d122831ea20.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"&gt;
@@ -1295,9 +1381,9 @@ decoding="async"
 fetchpriority="low"
 alt="Waiting for Data"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_959c61f189f8eed5.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_38a8427c2ee8be17.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_b0ba6f30a0b9ae2a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_9c13d6273adad6ab.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_e3400cb07ee4589.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_9a4813fc88780392.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"&gt;
@@ -1324,9 +1410,9 @@ decoding="async"
 fetchpriority="low"
 alt="Access point"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_134f3de54fded7ef.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_433d6ed6fc6c6b.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_1ba532ed8e32d427.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_b5bf4bfa86524f51.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_6a56b6edfec1e65b.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_c44e4f30111c202c.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"&gt;

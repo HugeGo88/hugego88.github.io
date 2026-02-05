@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Broker on HugeGo's Blog</title><link>http://tausch.one/tags/broker/</link><description>Recent content in Broker on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/broker/index.xml" rel="self" type="application/rss+xml"/><item><title>EMQX in Home Assistant einbinden und konfigurieren</title><link>http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Broker on HugeGo's Blog</title><link>http://tausch.one/tags/broker/</link><description>Recent content in Broker on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/broker/index.xml" rel="self" type="application/rss+xml"/><item><title>EMQX in Home Assistant einbinden und konfigurieren</title><link>http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/</guid><description>
 &lt;h2 class="relative group"&gt;Einleitung
 &lt;div id="einleitung" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -18,9 +18,9 @@ decoding="async"
 fetchpriority="low"
 alt="Diagramme"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_951cf11c9ca428d9.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_c41725490c560f7.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_f6b36bae481429c5.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_7f8ea295d1c65421.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_3f541f31160ca374.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_401f3e722674bdb9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/diagram.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/diagram.png"&gt;
@@ -65,9 +65,9 @@ decoding="async"
 fetchpriority="low"
 alt="Sys in MQTT Explorer"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_6a7341ed8d78f208.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_fcacb341518d2568.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_4aedf9faf6f3624.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_713a95b50f3cedd8.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_950ac81de068f32.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_384962720f45eda6.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer.png"&gt;
@@ -85,9 +85,9 @@ decoding="async"
 fetchpriority="low"
 alt="Authorization"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_edd44f783bf23e84.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_3f91630336093270.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_b6a23af6b98ef5ce.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_6559fe44363c3d3a.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_6a03241fe443f58e.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_9c37be4084627e26.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/autorization.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/autorization.png"&gt;
@@ -104,9 +104,9 @@ decoding="async"
 fetchpriority="low"
 alt="File"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_b495c411d6756025.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_64b2fcb6ac6d82e9.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_de03177112e4bdea.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_d618a18d81124d34.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_cec27729bbb2ba80.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_adfcf3f0202cdcca.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/file.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/file.png"&gt;
@@ -123,9 +123,9 @@ decoding="async"
 fetchpriority="low"
 alt="ACL Settings"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_38bccce8f6375aa8.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_4e1c49e4b4c64c67.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_7ad7544a6a13a686.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_4e8eaa68131a4ad8.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_a76aa7ac10c9e54d.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_c72a7731b02c1e38.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq.png"&gt;
@@ -152,9 +152,9 @@ decoding="async"
 fetchpriority="low"
 alt="AhoyDTU"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_761948e39e7e0866.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_9220525663f2f487.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_3fad2f239629a9e6.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_a6f971562d15ed78.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_91841e607a281e88.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_100a9ed653c63780.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/ahoy.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/ahoy.png"&gt;
@@ -170,9 +170,9 @@ decoding="async"
 fetchpriority="low"
 alt="MQTT Explorer"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_c80a40e9442fcddd.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_11cc76072e6d6db8.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_f9750daa5a5a2b92.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_3787fac0c137b742.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_e6b1df73e7c5220c.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_935c84c0ef830c1a.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer.png"&gt;
@@ -190,9 +190,9 @@ decoding="async"
 fetchpriority="low"
 alt="Retain"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_9c8efcf9b0a7f17d.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_f78f8d6d337e43ff.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_15618c4e128fbe79.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_cdcb2e23d0591bee.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_b02b8ba5e0627cee.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_9ba5265e7ca4fb07.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/retain.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/retain.png"&gt;

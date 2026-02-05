@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on HugeGo's Blog</title><link>http://tausch.one/categories/youtube/</link><description>Recent content in Youtube on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/categories/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>Home Assistant Apple Watch Complication</title><link>http://tausch.one/posts/2025/10-18-apple-watch-complication/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-18-apple-watch-complication/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on HugeGo's Blog</title><link>http://tausch.one/categories/youtube/</link><description>Recent content in Youtube on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/categories/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>Erster eindruck HmIP-WRC6-230</title><link>http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/</link><pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/</guid><description>
+&lt;h2 class="relative group"&gt;Man hab ich da lange drauf gewartet
+&lt;div id="man-hab-ich-da-lange-drauf-gewartet" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#man-hab-ich-da-lange-drauf-gewartet" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Seit Homematic die Schaltgruppe HmIPW-WRC6 raus gebracht hatte fand ich das ein sehr spannendes Produkt, einziger Nachteil. Die Schaltgruppe funktioniert leider nur mit Homematic IP Wired. Damit war das Thema für leider sehr schnell erledigt. Nirgends habe ich Homematic IP Wired verbaut und da ich auch keine Kabel in der Wohnung verlegen wollte war das für mich ein K.O. Kriterium. Und so musst ich auf den kleinen Bruder ohne LEDs ausweichen, der einzige Vorteil hier, der war Batteriebetrieben, was den Vorteil hat, dass man ihn überall anbringen kann.&lt;br&gt;
+Anscheinend war ich wohl nicht der einzige der der Meinung war, dass diese Schaltgruppe für Homematic IP (ohne Wired) gemacht gehört. Letzte Woche war es dann soweit, es gab eine Pressemitteilung, dass die Schaltgruppe nun auch nur über Funk (Homematic IP) zu haben ist.&lt;br&gt;
+Ein klarer Fall für die Kategorie &amp;lsquo;Braucht kein Mensch, muss ich haben&amp;rsquo;. Also in den Warenkorb gelegt, gewartet, angeschlossen und ausprobiert.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Mein Setup
+&lt;div id="mein-setup" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#mein-setup" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ich verwende Seit Anfang des Jahres OpenCCU, ein Opensource Projekt, welches mithilfe des Homematic USB Sticks eine ganze CCU emulieren kann. Das Ganze lebt als Addon/App in meinem Home Assistant. (ich muss sagen, OpenCCU läuft auf meiner Ugreen NAS mit Proxmox soviel besser und schneller wie meine alte CCU2, dass ich mich frage warum ich nicht früher umgestiegen bin).&lt;br&gt;
+Warum erwähne ich das, kurz bevor die HmIP-WRC6-230 Schaltgruppe bei mir daheim eingetroffen ist, gab es ein offizielles Release von OpenCCU in dem diese Schaltgruppe nun unterstützt wird. Wie das mit der CCU2 oder 3 aussieht kann ich nicht sagen. Aber ich schätze mal die werden auch ein Release hierfür bekommen haben.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Einbindung
+&lt;div id="einbindung" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#einbindung" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Nach der Installation im Flur habe ich wie immer den Einrichtungstanz der Homematic Komponenten getanzt. Um ehrlich zu sein, entweder stelle ich mich da immer dumm an, oder es ist echt jedes mal ein gefrickel. In jedem Fall hat es für meinen Fall mal wieder zu lange gedauert, bis der Taster erkannt wurde. Sei es drum, ich habe den Taster am Ende in meine OpenCCU rein bekommen. Und wie es sich gehört, wurde dieser dann über meine Homematic IP Integration von Home Assistant auch gleich erkannt.&lt;br&gt;
+Die LEDs waren sofort schaltbar, Farben konnten geändert werden und auch die Effekte, blinken oder billow (ein Pulsieren) der LEDs konnte in verschiedenen Geschwindigkeiten eingestellt werden. Super, genau deshalb wollte ich die Kiste ja.&lt;br&gt;
+Das Auslesen der Tasten war wie immer ein wenig ein gefrickel. Man muss wie auch bei anderen Tastern ein Programm einlernen welches die Tasten ausliest. Das Programm in der CCU muss an sich nichts machen, aber es müssen die Taster eben hinterlegt sein. Ich habe dafür bei mir einfach immer gesagt, dass ich einen kurzen Tastendruck auslesen will, mehr braucht es nicht. In Home Asssistant wird dann nachher immer noch schon differenziert ob es sich um einen kurzen oder langen Tastendruck handelt.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Einstellungen Programm CCU"
+srcset="
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_58c8ff138d202064.png 330w,
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_e293037e4c1244e.png 660w,
+/posts/2026/005-homematic-hmip-wrc6-230/images/openccu_hu_e4f978584c3a46e9.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/openccu.png"
+src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/openccu.png"&gt;
+&lt;figcaption&gt;Einstellungen CCU Programme&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;div id="gallery-97412d1ee311c7602da86d3b9fd91167" class="gallery"&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/allLeds.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/ledColor.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/ledEffects.png" class="grid-w50" /&gt;
+&lt;img src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/images/buttons.png" class="grid-w50" /&gt;
+&lt;/div&gt;
+&lt;h2 class="relative group"&gt;Der erste Schuss
+&lt;div id="der-erste-schuss" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#der-erste-schuss" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wie immer bei diesen &amp;lsquo;Boa geil, das muss ich haben&amp;rsquo;-Aktionen suche ich jetzt nachträglich noch nach einem guten Einsatzzweck für diesen Schalter. Meine ersten Ideen waren. Status der Wallbox anzeigen, Status der Lichter, welche nicht automatisch ausgehen und der Status der Fenster.&lt;br&gt;
+Das Ergebnis kann man hier im Bild sehen. Wobei ich beim Laden des E-Autos die LED pulsieren lasse. Ist die Wallbox an, lädt aber nicht leuchtet die LED einfach grün und wenn die Wallbox aus ist, dann ist die LED eben rot. Sind irgendwo noch Fenster offen dann leuchtet die LED rot und so weiter. Ja bei den Fenster bringt mir die Taste aktuell nichts, aber vielleicht stelle ich bei uns in den Flur noch einen Lautsprecher der mir dann später über Text-To-Speech dann noch sagen kann welche Fenster noch offen sind, nachdem ich den Knopf gedrückt habe. Aber ihr sehr, es gibt noch Knöpfe die danach schreien belegt zu werden.
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Aktueller Einsatz"
+srcset="
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_22eb0d094be5119e.png 330w,
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_2149cbc5ab356a52.png 660w,
+/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_de5b77300a311875.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"
+src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Youtube
+&lt;div id="youtube" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#youtube" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Wird demnächst noch erscheinen&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"/></item><item><title>Home Assistant Apple Watch Complication</title><link>http://tausch.one/posts/2025/10-18-apple-watch-complication/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-18-apple-watch-complication/</guid><description>
 &lt;h2 class="relative group"&gt;Der Game-Changer
 &lt;div id="der-game-changer" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -35,9 +121,9 @@ decoding="async"
 fetchpriority="low"
 alt="Einstellungen"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_eb35a7edd2623a0e.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_bb78dc9a59fe5127.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_42b6541aaad876ef.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_8eeff2a1ca882758.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_38d84d682d6e0c93.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/einstellungen_hu_5108c515cb272418.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/einstellungen.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/einstellungen.png"&gt;
@@ -54,9 +140,9 @@ decoding="async"
 fetchpriority="low"
 alt="Entitäten"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_f984486dd815c1bf.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_d5958c56afc5a670.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_b03e3bd9a2f08dda.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_135da8aa579fb1bc.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_246491d7f51d0a51.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/entitaeten_hu_d238446d7b0ca690.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/entitaeten.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/entitaeten.png"&gt;
@@ -73,9 +159,9 @@ decoding="async"
 fetchpriority="low"
 alt="Detail"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/diagram_hu_1b402e468f2ffda.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/diagram_hu_936f63c57e5e294a.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/diagram_hu_549b443d2a98aae8.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_234414d88542d2e1.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_9d90ef06922558cf.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/diagram_hu_59ea9de0a622729c.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/diagram.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/diagram.png"&gt;
@@ -93,9 +179,9 @@ decoding="async"
 fetchpriority="low"
 alt="Einstellung"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/detail_hu_cb1268e1b082026.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/detail_hu_c0dc45bfae2fc0b0.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/detail_hu_3a7bafcce75cd46f.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_55ee9070c5e7c16c.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_d4376b1779ca8fec.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/detail_hu_e513e77021eaeb.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/detail.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/detail.png"&gt;
@@ -124,9 +210,9 @@ decoding="async"
 fetchpriority="low"
 alt="YAML Einstellungen"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_da24365e754f4fc2.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_6efecbd129962307.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_72418f3061266ce3.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_706c5db11d91fcf8.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_3694b9b98167855f.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/yaml-detail_hu_be44c0389b3900d0.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/yaml-detail.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/yaml-detail.png"&gt;
@@ -151,9 +237,9 @@ decoding="async"
 fetchpriority="low"
 alt="Template Editor"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/template_hu_c2d90035c34f3fd4.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/template_hu_48123b95dd86f010.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/template_hu_10d846341da00d99.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/template_hu_dc1042fc25ab6f74.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/template_hu_c273fc35970c2bb4.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/template_hu_5e6ab397dcc740b5.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template.png"&gt;
@@ -170,9 +256,9 @@ decoding="async"
 fetchpriority="low"
 alt="Editor"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/template2_hu_ae72ac1d6b361319.png 330w,
-/posts/2025/10-18-apple-watch-complication/images/template2_hu_1c7fb8625efda23f.png 660w,
-/posts/2025/10-18-apple-watch-complication/images/template2_hu_69197f9f45b7f397.png 1280w
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_b3b674895406e101.png 330w,
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_55f5cd24005fe428.png 660w,
+/posts/2025/10-18-apple-watch-complication/images/template2_hu_6aa47e5abe9ceaa1.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template2.png"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/template2.png"&gt;
@@ -218,9 +304,9 @@ decoding="async"
 fetchpriority="low"
 alt="Companion App"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ef1b9b226207e22c.PNG 330w,
-/posts/2025/10-18-apple-watch-complication/images/ios1_hu_c372e2f24aaf5079.PNG 660w,
-/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ddbc1a4fc475c137.PNG 1280w
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ddd9fefc5f81fc69.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_ed50d489a40c383b.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios1_hu_3111639c9f69c1c1.PNG 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios1.PNG"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios1.PNG"&gt;
@@ -237,9 +323,9 @@ decoding="async"
 fetchpriority="low"
 alt="Apple Watch Komplikation"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/ios2_hu_2d9a645889b0b5ed.PNG 330w,
-/posts/2025/10-18-apple-watch-complication/images/ios2_hu_a666d1dc7a2809c9.PNG 660w,
-/posts/2025/10-18-apple-watch-complication/images/ios2_hu_b9020408b67f585.PNG 1280w
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_591dfdd38d636bd9.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_bfff47b446e378b5.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios2_hu_7bccab0d71333a04.PNG 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios2.PNG"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios2.PNG"&gt;
@@ -256,9 +342,9 @@ decoding="async"
 fetchpriority="low"
 alt="Komplikationen"
 srcset="
-/posts/2025/10-18-apple-watch-complication/images/ios3_hu_c6953d296e0b75f8.PNG 330w,
-/posts/2025/10-18-apple-watch-complication/images/ios3_hu_9ef8af6824d0dfd9.PNG 660w,
-/posts/2025/10-18-apple-watch-complication/images/ios3_hu_9f8219f56cbbbddd.PNG 1280w
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_1760ac89f87ec9ce.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_50107e3ee48a1d58.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/images/ios3_hu_8ea417c22f450c15.PNG 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios3.PNG"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/images/ios3.PNG"&gt;
@@ -294,9 +380,9 @@ decoding="async"
 fetchpriority="low"
 alt="Beispiel"
 srcset="
-/posts/2025/10-18-apple-watch-complication/featured_hu_d06f8568f8322292.PNG 330w,
-/posts/2025/10-18-apple-watch-complication/featured_hu_af4079a5ef28e131.PNG 660w,
-/posts/2025/10-18-apple-watch-complication/featured_hu_b6e04e2d3d268596.PNG 1280w
+/posts/2025/10-18-apple-watch-complication/featured_hu_6cc8418147e8ff0c.PNG 330w,
+/posts/2025/10-18-apple-watch-complication/featured_hu_6b6fada299d3ba7a.PNG 660w,
+/posts/2025/10-18-apple-watch-complication/featured_hu_abf573501a334878.PNG 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"
 src="http://tausch.one/posts/2025/10-18-apple-watch-complication/featured.PNG"&gt;

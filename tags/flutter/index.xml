@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flutter on HugeGo's Blog</title><link>http://tausch.one/tags/flutter/</link><description>Recent content in Flutter on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/flutter/index.xml" rel="self" type="application/rss+xml"/><item><title>Flutter meets Wordpress am Beispiel CVJM Walheim App</title><link>http://tausch.one/posts/2025/10-11-cvjm-app/</link><pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-11-cvjm-app/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flutter on HugeGo's Blog</title><link>http://tausch.one/tags/flutter/</link><description>Recent content in Flutter on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/flutter/index.xml" rel="self" type="application/rss+xml"/><item><title>Flutter meets Wordpress am Beispiel CVJM Walheim App</title><link>http://tausch.one/posts/2025/10-11-cvjm-app/</link><pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/10-11-cvjm-app/</guid><description>
 &lt;h2 class="relative group"&gt;Warum habe ich diese App geschrieben?
 &lt;div id="warum-habe-ich-diese-app-geschrieben" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -28,9 +28,9 @@ decoding="async"
 fetchpriority="low"
 alt="Safari"
 srcset="
-/posts/2025/10-11-cvjm-app/images/safari_hu_ef0c4b3ba4bc9ed5.png 330w,
-/posts/2025/10-11-cvjm-app/images/safari_hu_abfa4b4f2a528316.png 660w,
-/posts/2025/10-11-cvjm-app/images/safari_hu_b4ee1719f3c7e7f8.png 1280w
+/posts/2025/10-11-cvjm-app/images/safari_hu_cf78ace3db10854.png 330w,
+/posts/2025/10-11-cvjm-app/images/safari_hu_b135fb3695e2658f.png 660w,
+/posts/2025/10-11-cvjm-app/images/safari_hu_a33b372f7dfba23f.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/safari.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/safari.png"&gt;
@@ -50,9 +50,9 @@ decoding="async"
 fetchpriority="low"
 alt="Firefox"
 srcset="
-/posts/2025/10-11-cvjm-app/images/firefox_hu_a892b3064fecca51.png 330w,
-/posts/2025/10-11-cvjm-app/images/firefox_hu_5e51625f71ccd748.png 660w,
-/posts/2025/10-11-cvjm-app/images/firefox_hu_a11ef275ac731cb8.png 1280w
+/posts/2025/10-11-cvjm-app/images/firefox_hu_a75b403a2040c79b.png 330w,
+/posts/2025/10-11-cvjm-app/images/firefox_hu_4d6c3e980d34961f.png 660w,
+/posts/2025/10-11-cvjm-app/images/firefox_hu_284093e77fa9d111.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/firefox.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/firefox.png"&gt;
@@ -89,9 +89,9 @@ decoding="async"
 fetchpriority="low"
 alt="Startseite"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_e5d3c77cdc1299b8.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_c60b6e283eceb907.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_3055afb3a7a7fa71.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_b7ba880cdf9208b8.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_97d03b4072b14cab.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_6686ae784d64240e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/aktuelles.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/aktuelles.png"&gt;
@@ -107,9 +107,9 @@ decoding="async"
 fetchpriority="low"
 alt="Termien"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_39c90ad5f1f459bb.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_e521b96b60ca6a0b.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_766ce9314392e425.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_ce959b5a5b8cb40e.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_b417601eb197076f.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_d22229df1e03afe9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/termine.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/termine.png"&gt;
@@ -125,9 +125,9 @@ decoding="async"
 fetchpriority="low"
 alt="Berichte"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_2104e5169da621da.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_9ad420b474f1a8fc.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_7124350b52add548.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_8b4c46b41327928a.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_1e925665faae81d.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_4c39a51e90ac108e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/berichte.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/berichte.png"&gt;
@@ -143,9 +143,9 @@ decoding="async"
 fetchpriority="low"
 alt="Details"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/details_hu_52077ee73980701f.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/details_hu_64adc5d238f2d090.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/details_hu_348d97ed981bc1fe.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/details_hu_936393fec76e0550.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/details_hu_57078af1ee4578f5.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/details_hu_5e38a56bf475b861.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/details.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/details.png"&gt;
@@ -161,9 +161,9 @@ decoding="async"
 fetchpriority="low"
 alt="Gruppen"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_88792e0950197071.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_f995cf722b9a7a2c.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_a7ee45fb6e9e2247.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_9dd1ab537946c4c1.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_1d90f32cba93ecc6.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_b84273e6c596055e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/gruppen.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/gruppen.png"&gt;
@@ -179,9 +179,9 @@ decoding="async"
 fetchpriority="low"
 alt="Über"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_be4b92ef576468d4.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_57c14d783a0efa1.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_121e35126a82f542.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_9214901b20b63020.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_c6cba263923bcbb2.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_f8e3b6ccba20ef30.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/ueber.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/ueber.png"&gt;

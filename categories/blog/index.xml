@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on HugeGo's Blog</title><link>http://tausch.one/categories/blog/</link><description>Recent content in Blog on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2025 Hugo Tausch</copyright><lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on HugeGo's Blog</title><link>http://tausch.one/categories/blog/</link><description>Recent content in Blog on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
 &lt;h2 class="relative group"&gt;Ziel
 &lt;div id="ziel" class="anchor"&gt;&lt;/div&gt;
 &lt;span
@@ -1080,9 +1080,9 @@ decoding="async"
 fetchpriority="low"
 alt="Diagramme"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_951cf11c9ca428d9.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_c41725490c560f7.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_f6b36bae481429c5.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_7f8ea295d1c65421.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_3f541f31160ca374.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/diagram_hu_401f3e722674bdb9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/diagram.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/diagram.png"&gt;
@@ -1127,9 +1127,9 @@ decoding="async"
 fetchpriority="low"
 alt="Sys in MQTT Explorer"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_6a7341ed8d78f208.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_fcacb341518d2568.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_4aedf9faf6f3624.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_713a95b50f3cedd8.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_950ac81de068f32.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer_hu_384962720f45eda6.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-mqtt-explorer.png"&gt;
@@ -1147,9 +1147,9 @@ decoding="async"
 fetchpriority="low"
 alt="Authorization"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_edd44f783bf23e84.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_3f91630336093270.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_b6a23af6b98ef5ce.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_6559fe44363c3d3a.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_6a03241fe443f58e.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/autorization_hu_9c37be4084627e26.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/autorization.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/autorization.png"&gt;
@@ -1166,9 +1166,9 @@ decoding="async"
 fetchpriority="low"
 alt="File"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_b495c411d6756025.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_64b2fcb6ac6d82e9.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_de03177112e4bdea.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_d618a18d81124d34.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_cec27729bbb2ba80.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/file_hu_adfcf3f0202cdcca.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/file.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/file.png"&gt;
@@ -1185,9 +1185,9 @@ decoding="async"
 fetchpriority="low"
 alt="ACL Settings"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_38bccce8f6375aa8.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_4e1c49e4b4c64c67.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_7ad7544a6a13a686.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_4e8eaa68131a4ad8.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_a76aa7ac10c9e54d.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq_hu_c72a7731b02c1e38.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/sys-emxq.png"&gt;
@@ -1214,9 +1214,9 @@ decoding="async"
 fetchpriority="low"
 alt="AhoyDTU"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_761948e39e7e0866.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_9220525663f2f487.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_3fad2f239629a9e6.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_a6f971562d15ed78.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_91841e607a281e88.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/ahoy_hu_100a9ed653c63780.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/ahoy.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/ahoy.png"&gt;
@@ -1232,9 +1232,9 @@ decoding="async"
 fetchpriority="low"
 alt="MQTT Explorer"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_c80a40e9442fcddd.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_11cc76072e6d6db8.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_f9750daa5a5a2b92.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_3787fac0c137b742.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_e6b1df73e7c5220c.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer_hu_935c84c0ef830c1a.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/mqtt-explorer.png"&gt;
@@ -1252,9 +1252,9 @@ decoding="async"
 fetchpriority="low"
 alt="Retain"
 srcset="
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_9c8efcf9b0a7f17d.png 330w,
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_f78f8d6d337e43ff.png 660w,
-/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_15618c4e128fbe79.png 1280w
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_cdcb2e23d0591bee.png 330w,
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_b02b8ba5e0627cee.png 660w,
+/posts/2025/11-01-emqx-in-home-assistant/images/retain_hu_9ba5265e7ca4fb07.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/retain.png"
 src="http://tausch.one/posts/2025/11-01-emqx-in-home-assistant/images/retain.png"&gt;
@@ -1269,9 +1269,9 @@ decoding="async"
 fetchpriority="low"
 alt="Price Tags"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_575511a1f23e8535.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_a1294a4e5999eba5.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_aeeba967cbc5031a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_7bade6189e1baced.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_c399ff19b9dcf5d1.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured_hu_3b6fb512e4b80cb3.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/featured.jpeg"&gt;
@@ -1318,9 +1318,9 @@ decoding="async"
 fetchpriority="low"
 alt="Designer"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_fc13ce8c1a709492.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_50de0d4d34ace40a.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_1a2c4f745c1aaa20.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_83d62df3d2ff952a.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_94d86e6462677bad.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview_hu_c93225cad95c4867.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/overview.png"&gt;
@@ -1337,9 +1337,9 @@ decoding="async"
 fetchpriority="low"
 alt="Beispiele"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_743a45d9270741ef.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_506fb1c9b1c48149.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_68a18da655eb614f.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_de3f08d33ca21840.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_4bf74ea0510f16ac.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example_hu_8c7a3b9f253eb88d.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/example.png"&gt;
@@ -1356,9 +1356,9 @@ decoding="async"
 fetchpriority="low"
 alt="Entität"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_15d55fac5e812331.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_c90651e5f201a837.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_8633b2b03dad15ca.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_dc380d2aa076ab9f.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_1f409bdf4ecd1b16.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant_hu_7a7f88895890f8b9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/homeassistant.png"&gt;
@@ -1385,9 +1385,9 @@ decoding="async"
 fetchpriority="low"
 alt="Test"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f5aabf578a7e35f5.png 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_f3e857ed8643128d.png 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_bde9a3b70faf315d.png 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_7c4fe61e20164ff.png 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_bf473ce83090cee4.png 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test_hu_1d9b875fcbcec528.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/home_assistant_test.png"&gt;
@@ -1420,9 +1420,9 @@ decoding="async"
 fetchpriority="low"
 alt="Price Tags"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_7a884cedacd10651.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_bdf30627b00c809f.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_feda34314924371a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_15976a60c5354c23.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_d2e9ff73178cb19e.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag_hu_e6b6bc20468ca0f6.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/pricetag.jpeg"&gt;
@@ -1439,9 +1439,9 @@ decoding="async"
 fetchpriority="low"
 alt="Tag im Deep Sleep"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_b28c2fbb5b4f82b7.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_bb8d9d8798025024.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_79a9a62b6b6c018a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_c1c37f88345ef017.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_4189fef751d4f03.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep_hu_b02b7378e049ae1e.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/deepsleep.jpeg"&gt;
@@ -1458,9 +1458,9 @@ decoding="async"
 fetchpriority="low"
 alt="Leerer Tag"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_ce651ee0f457771c.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_32bb55d04e30f07a.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_695e8b2d7e83c193.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_133045ddf3395e33.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_a314c5a93ac0ab02.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1_hu_6e52037b98771e98.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen1.jpeg"&gt;
@@ -1476,9 +1476,9 @@ decoding="async"
 fetchpriority="low"
 alt="Zellen in Tag"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_d933a708a159a912.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_52ec7246b5c36378.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_1bb23ae681086db2.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_1ebd224cb95dc32a.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_a52a85fad1b41ffa.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2_hu_a2ba1d122831ea20.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/innen2.jpeg"&gt;
@@ -1495,9 +1495,9 @@ decoding="async"
 fetchpriority="low"
 alt="Waiting for Data"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_959c61f189f8eed5.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_38a8427c2ee8be17.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_b0ba6f30a0b9ae2a.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_9c13d6273adad6ab.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_e3400cb07ee4589.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting_hu_9a4813fc88780392.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/waiting.jpeg"&gt;
@@ -1524,9 +1524,9 @@ decoding="async"
 fetchpriority="low"
 alt="Access point"
 srcset="
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_134f3de54fded7ef.jpeg 330w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_433d6ed6fc6c6b.jpeg 660w,
-/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_1ba532ed8e32d427.jpeg 1280w
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_b5bf4bfa86524f51.jpeg 330w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_6a56b6edfec1e65b.jpeg 660w,
+/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap_hu_c44e4f30111c202c.jpeg 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"
 src="http://tausch.one/posts/2025/10-25-openepaperlink-ha-yaml-designer/images/ap.jpeg"&gt;
@@ -1624,9 +1624,9 @@ decoding="async"
 fetchpriority="low"
 alt="Safari"
 srcset="
-/posts/2025/10-11-cvjm-app/images/safari_hu_ef0c4b3ba4bc9ed5.png 330w,
-/posts/2025/10-11-cvjm-app/images/safari_hu_abfa4b4f2a528316.png 660w,
-/posts/2025/10-11-cvjm-app/images/safari_hu_b4ee1719f3c7e7f8.png 1280w
+/posts/2025/10-11-cvjm-app/images/safari_hu_cf78ace3db10854.png 330w,
+/posts/2025/10-11-cvjm-app/images/safari_hu_b135fb3695e2658f.png 660w,
+/posts/2025/10-11-cvjm-app/images/safari_hu_a33b372f7dfba23f.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/safari.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/safari.png"&gt;
@@ -1646,9 +1646,9 @@ decoding="async"
 fetchpriority="low"
 alt="Firefox"
 srcset="
-/posts/2025/10-11-cvjm-app/images/firefox_hu_a892b3064fecca51.png 330w,
-/posts/2025/10-11-cvjm-app/images/firefox_hu_5e51625f71ccd748.png 660w,
-/posts/2025/10-11-cvjm-app/images/firefox_hu_a11ef275ac731cb8.png 1280w
+/posts/2025/10-11-cvjm-app/images/firefox_hu_a75b403a2040c79b.png 330w,
+/posts/2025/10-11-cvjm-app/images/firefox_hu_4d6c3e980d34961f.png 660w,
+/posts/2025/10-11-cvjm-app/images/firefox_hu_284093e77fa9d111.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/firefox.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/firefox.png"&gt;
@@ -1685,9 +1685,9 @@ decoding="async"
 fetchpriority="low"
 alt="Startseite"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_e5d3c77cdc1299b8.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_c60b6e283eceb907.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_3055afb3a7a7fa71.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_b7ba880cdf9208b8.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_97d03b4072b14cab.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/aktuelles_hu_6686ae784d64240e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/aktuelles.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/aktuelles.png"&gt;
@@ -1703,9 +1703,9 @@ decoding="async"
 fetchpriority="low"
 alt="Termien"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_39c90ad5f1f459bb.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_e521b96b60ca6a0b.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/termine_hu_766ce9314392e425.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_ce959b5a5b8cb40e.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_b417601eb197076f.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/termine_hu_d22229df1e03afe9.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/termine.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/termine.png"&gt;
@@ -1721,9 +1721,9 @@ decoding="async"
 fetchpriority="low"
 alt="Berichte"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_2104e5169da621da.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_9ad420b474f1a8fc.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/berichte_hu_7124350b52add548.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_8b4c46b41327928a.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_1e925665faae81d.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/berichte_hu_4c39a51e90ac108e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/berichte.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/berichte.png"&gt;
@@ -1739,9 +1739,9 @@ decoding="async"
 fetchpriority="low"
 alt="Details"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/details_hu_52077ee73980701f.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/details_hu_64adc5d238f2d090.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/details_hu_348d97ed981bc1fe.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/details_hu_936393fec76e0550.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/details_hu_57078af1ee4578f5.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/details_hu_5e38a56bf475b861.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/details.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/details.png"&gt;
@@ -1757,9 +1757,9 @@ decoding="async"
 fetchpriority="low"
 alt="Gruppen"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_88792e0950197071.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_f995cf722b9a7a2c.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_a7ee45fb6e9e2247.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_9dd1ab537946c4c1.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_1d90f32cba93ecc6.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/gruppen_hu_b84273e6c596055e.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/gruppen.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/gruppen.png"&gt;
@@ -1775,9 +1775,9 @@ decoding="async"
 fetchpriority="low"
 alt="Über"
 srcset="
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_be4b92ef576468d4.png 330w,
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_57c14d783a0efa1.png 660w,
-/posts/2025/10-11-cvjm-app/images/app/ueber_hu_121e35126a82f542.png 1280w
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_9214901b20b63020.png 330w,
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_c6cba263923bcbb2.png 660w,
+/posts/2025/10-11-cvjm-app/images/app/ueber_hu_f8e3b6ccba20ef30.png 1280w
 "
 data-zoom-src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/ueber.png"
 src="http://tausch.one/posts/2025/10-11-cvjm-app/images/app/ueber.png"&gt;
