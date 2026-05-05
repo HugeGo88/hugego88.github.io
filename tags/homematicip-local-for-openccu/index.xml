@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Homematic(IP) Local for OpenCCU on HugeGo's Blog</title><link>http://tausch.one/tags/homematicip-local-for-openccu/</link><description>Recent content in Homematic(IP) Local for OpenCCU on HugeGo's Blog</description><generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>hugo@tausch.one (Hugo Tausch)</managingEditor><webMaster>hugo@tausch.one (Hugo Tausch)</webMaster><copyright>© 2026 Hugo Tausch</copyright><lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://tausch.one/tags/homematicip-local-for-openccu/index.xml" rel="self" type="application/rss+xml"/><item><title>Endlich ausgeschaltet</title><link>http://tausch.one/posts/2026/006-homematic-ip-local/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2026/006-homematic-ip-local/</guid><description>&lt;p&gt;Home Assistant und die Homematic &amp;hellip;&lt;br&gt;
+wird immer besser und jetzt habe ich auch meinen Frieden mit den Thermostaten.&lt;br&gt;
+Seit ich mit dem Thema Smart Home angefangen habe, nutze ich auch Komponenten von Homematic. Sicherlich ist nicht alles perfekt mit diesen Komponenten und an manchen stellen wirken sie vielleicht auch ein wenig altbacken, aber im großen und ganzen tun sie ihren Dienst. Meine ersten Schritte waren aber nicht in Verbindung mit Home Assistant sondern mit openHAB. Die Integration von Homematic in openHAB empfand ich damals als sehr rund. Es war dementsprechend ein wenig hard für mich zu sehen, dass die Integration in Home Assistant, zumindest am Anfang, nicht ganz das bieten konnte was ich aus openHAB gewöhnt war. Was genau die Punkte zu dieser Zeit waren kann ich schon gar nicht mehr recht benennen, das ist auch nicht schlimm, denn mittlerweile vermisse ich definitiv nichts mehr, im Gegenteil.&lt;/p&gt;
+&lt;p&gt;Lange hatte ich noch gehadert, weil ich es z.B. nicht hinbekommen habe die Thermostate &amp;ldquo;auszuschalten&amp;rdquo;. Egal welche Temperaturen ich einstellte, welche Buttons ich auf der Oberfläche drückte oder aber auch welche Services ich ansteuerte, das Ergebnis war immer das selbe. Der Thermostat stand kurze auf aus, nur um dann Sekunden später wieder auf an zu springen. Zwar war der Thermostat dann auf 5 Grad eingestellt, aber er wurde eben nicht als aus im Home Assistant gekennzeichnet. Das brachte meinen inneren Monk so sehr auf die Palme, dass ich die Thermostate einfach immer angelassen hatte und auch die Wochenpläne nicht Homematic anvertraute sondern lieber selber in Home Assistant nach programmierte.&lt;br&gt;
+Das hat sich nun aber mit einem der letzten Updates von Homeatic(IP) Local for OpenCCU grundlegend geändert. Seit einer weile nun wird standardmäßig in der Seitenleiste diese Integration default mäßig angezeigt. Man muss sie also ganz bewusst aus der Seitenleiste werfen. Wenn ich die Changelogs richtig gelesen habe, haben die Entwickler diesen Schritt gemacht, damit Nutzer dieser Integration überhaupt auf dieses Menü stoßen. Ganz ehrlich, ich war einer dieser Nutzer der diese Integration was weiß ich wie lange schon nutze, aber noch nie in die Seitenleiste reingeschaut hatte. Ich bin den Entwicklern also ganz schön dankbar für diesen Schritt. So sehr, dass es eben heute einen Blogpost hierfür gibt.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Seitenleiste"
+srcset="
+/posts/2026/006-homematic-ip-local/images/seitenleiste_hu_77d8de947b507fba.png 330w,
+/posts/2026/006-homematic-ip-local/images/seitenleiste_hu_f19d1288a6ae1b21.png 660w,
+/posts/2026/006-homematic-ip-local/images/seitenleiste_hu_ac0e8960623867d3.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/006-homematic-ip-local/images/seitenleiste.png"
+src="http://tausch.one/posts/2026/006-homematic-ip-local/images/seitenleiste.png"&gt;
+&lt;figcaption&gt;Seitenleiste&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Das neue Seitenleisten-Element
+&lt;div id="das-neue-seitenleisten-element" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#das-neue-seitenleisten-element" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;HM Gerätekonfiguration, so nenne sich der neue Eintrag in der Seitenleiste. Erst wusste ich nicht einmal wo der her kam, hatte ich die Integration doch schon eine ganze weile installiert und bisher nie diese Seitenleiste gesehen. Natürlich hatte der neue Eintrag meine Neugier geweckt und ich musste erst ersteinmal explorieren was sich denn nun hinter diesem neuen Eintrag verbirgt.&lt;br&gt;
+Ein Hub und viele Geräte, mein erste Eindruck war nüchtern. Okay eine Aufzählung alles Homematic Geräte gab es doch auch schon an anderer Stelle&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img class="my-0 rounded-md" loading="lazy" alt="HM Gerätekonfiguration" src="images/hm%20konfig.png"&gt;
+&lt;figcaption&gt;HM Gerätekonfiguration&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img class="my-0 rounded-md" loading="lazy" alt="Homematic Integration" src="images/Homematic%20Integration.png"&gt;
+&lt;figcaption&gt;Homematic Integration&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Erst der zweite Blick lies mich ein wenig erahnen welche Möglichkeiten sich in diesem Menü auftaten. Denn mit dem Klick auf ein beliebiges Gerät kommt man eben nicht in die Liste der Entitäten, sondern wirklich, wie es die Seitenleiste schon andeutet, in die Konfiguration der einzelnen Geräte. Hier begrüßen einen auf einen Schlag schaltflächen wie Zeitpläne, Änderungsverlauf oder aber auch Direktverknüpfungen. Sollte dies die Lösung für die in die Jahre gekommene Konfigurationsseite der CCU2 sein?&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Thermostat Minimum setzen
+&lt;div id="thermostat-minimum-setzen" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#thermostat-minimum-setzen" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img class="my-0 rounded-md" loading="lazy" alt="Thermostat Konfig" src="images/hm%20thermosthatconfig.png"&gt;
+&lt;figcaption&gt;Thermostat Konfig&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;MASTER konfigurieren&amp;rsquo; klang schon mal sehr viel versprechend, im zweiten Eintrag dann die Überraschung. Meine Thermostate waren durch die Bank auf eine minimal Temperatur von 5 Grad eingestellt. Unter dem Label stand aber, dass das Minimum bis runter auf 4,5 Grad Celsius gehen kann. Der Slider ging zwar nicht soweit runter, aber in dem Textfeld konnte ich dann einfach die 4,5 eingeben. Meine Thermostate nicht auf das absolute Minimum eingestellt waren war mir bis dahin nicht bewusst.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img class="my-0 rounded-md" loading="lazy" alt="Thermostat geht nicht aus" src="images/not%20working.gif"&gt;
+&lt;figcaption&gt;Thermostat geht nicht aus&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Weiter bin ich mir nichtmal sicher, ob es innerhalb der CCU überhaupt einen Wert gab, anhand dessen ich sehen und ablesen konnte was das Minimum für die Temperatur ist.&lt;br&gt;
+Lange Rede, kurzer Sinn, ich habe darauf hin nochmals den Test gemacht gehabt mir den Thermostaten und dem Ausschalten über den Knopf in der UI und siehe da, die Thermostate bleiben nun auch wirklich ausgeschaltet.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Thermostat geht aus und bleibt so"
+srcset="
+/posts/2026/006-homematic-ip-local/images/working_hu_263d74dbb86015c1.gif 330w,
+/posts/2026/006-homematic-ip-local/images/working_hu_ceebaef459738075.gif 660w,
+/posts/2026/006-homematic-ip-local/images/working_hu_dfe609d7168514df.gif 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/006-homematic-ip-local/images/working.gif"
+src="http://tausch.one/posts/2026/006-homematic-ip-local/images/working.gif"&gt;
+&lt;figcaption&gt;Thermostat geht aus und bleibt so&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Zeitpläne einstellen
+&lt;div id="zeitpläne-einstellen" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#zeitpl%c3%a4ne-einstellen" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;Nachdem ich also schon die ersten Vorteile dieser neuen und deutlich besseren UI verglichen mit der CCU gefunden hatte, wollte ich nun auch wissen wie aufwendig es ist einen Wochenplan zu konfigurieren und für alle Teilnehmer zu übernehmen.&lt;br&gt;
+Im oberen Drop Down konnte man nun den Thermostat anwählen welchen man konfigurieren wollte. Anschließend das Profil ausgewählt, ich habe einfach P1 stehen lassen. Mit einem Klick auf den Wochentag bekomme ich nun einen Dialog angezeigt. Dieser ermöglicht es mir mehrere Zeitfenster, sowie die Dauer und Temperatur einzustellen. Bin ich mit meiner Einstellung zufrieden speichere ich diese ab. Unterhalb der einzelnen Tagesnamen kann ich nun mithilfe der Copy&amp;amp;Past Buttons einfach die Einstellung auf verschiedene Tage übertragen. Bin ich zufrieden sende ich meine neue Einstellung an das Gerät und fertig. Alles ohne in die UI von CCU gehen zu müssen.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Zeitplan Wochenansicht"
+srcset="
+/posts/2026/006-homematic-ip-local/images/wochenansicht_hu_fe97449ca3c01aa8.png 330w,
+/posts/2026/006-homematic-ip-local/images/wochenansicht_hu_69197a5d874b857.png 660w,
+/posts/2026/006-homematic-ip-local/images/wochenansicht_hu_d212bcc62df01cd.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/006-homematic-ip-local/images/wochenansicht.png"
+src="http://tausch.one/posts/2026/006-homematic-ip-local/images/wochenansicht.png"&gt;
+&lt;figcaption&gt;Zeitplan Wochenansicht&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+decoding="async"
+fetchpriority="low"
+alt="Zeitplan Tagesansicht"
+srcset="
+/posts/2026/006-homematic-ip-local/images/tagesansicht_hu_4597fd7fb17bbded.png 330w,
+/posts/2026/006-homematic-ip-local/images/tagesansicht_hu_1058835dd5339bfb.png 660w,
+/posts/2026/006-homematic-ip-local/images/tagesansicht_hu_2473044d9aa580d1.png 1280w
+"
+data-zoom-src="http://tausch.one/posts/2026/006-homematic-ip-local/images/tagesansicht.png"
+src="http://tausch.one/posts/2026/006-homematic-ip-local/images/tagesansicht.png"&gt;
+&lt;figcaption&gt;Zeitplan Tagesansicht&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Fazit
+&lt;div id="fazit" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#fazit" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;Für mich ist die plötzlich aufgetauchte Seitenleiste am Anfang verwirrend und vielleicht auch ein wenig nervig gewesen. &amp;ldquo;Jetzt will schon wieder jemand meine Aufmerksamkeit, das fehlt mir noch.&amp;rdquo; Doch am Ende muss ich sagen ist es einfach wahnsinnig gut was die Entwickler:innen da abgeliefert haben und die Ansicht verdient es so prominent zumindest einmal initial angezeigt zu werden, damit auch möglich viele sich mal hineinbegeben und damit ihre eigenen Erfahrungen machen können.&lt;br&gt;
+Weiter bin ich auch super froh, dass sich meine Thermostate nun endlich so verhalten wie ich mir das schon immer gewünscht habe, das wurde aber auch Zeit. Ein Punkt weniger den ich von openHAB schmerzhaft vermisst habe, im Gegenteil, ein gutes Beispiel dafür wie die Community aktiv daran arbeitet Home Assistant noch besser zu machen.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/006-homematic-ip-local/featured.gif"/></item></channel></rss>

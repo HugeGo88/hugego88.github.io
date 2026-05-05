@@ -62,19 +62,7 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;p&gt;Wie immer bei diesen &amp;lsquo;Boa geil, das muss ich haben&amp;rsquo;-Aktionen suche ich jetzt nachträglich noch nach einem guten Einsatzzweck für diesen Schalter. Meine ersten Ideen waren. Status der Wallbox anzeigen, Status der Lichter, welche nicht automatisch ausgehen und der Status der Fenster.&lt;br&gt;
 Das Ergebnis kann man hier im Bild sehen. Wobei ich beim Laden des E-Autos die LED pulsieren lasse. Ist die Wallbox an, lädt aber nicht leuchtet die LED einfach grün und wenn die Wallbox aus ist, dann ist die LED eben rot. Sind irgendwo noch Fenster offen dann leuchtet die LED rot und so weiter. Ja bei den Fenster bringt mir die Taste aktuell nichts, aber vielleicht stelle ich bei uns in den Flur noch einen Lautsprecher der mir dann später über Text-To-Speech dann noch sagen kann welche Fenster noch offen sind, nachdem ich den Knopf gedrückt habe. Aber ihr sehr, es gibt noch Knöpfe die danach schreien belegt zu werden.
 &lt;figure&gt;
-&lt;img
-class="my-0 rounded-md"
-loading="lazy"
-decoding="async"
-fetchpriority="low"
-alt="Aktueller Einsatz"
-srcset="
-/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_22eb0d094be5119e.png 330w,
-/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_2149cbc5ab356a52.png 660w,
-/posts/2026/005-homematic-hmip-wrc6-230/featured_hu_de5b77300a311875.png 1280w
-"
-data-zoom-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"
-src="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"&gt;
+&lt;img class="my-0 rounded-md" loading="lazy" alt="Aktueller Einsatz" src="featured.png"&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;h2 class="relative group"&gt;Youtube
@@ -84,7 +72,9 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#youtube" aria-label="Anker"&gt;#&lt;/a&gt;
 &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;Wird demnächst noch erscheinen&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.png"/></item><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/DxWGCh31WX0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/005-homematic-hmip-wrc6-230/featured.gif"/></item><item><title>Teil 1: LVGL mit ESPHome erste Seite, Layout, Widget und Verbindung mit Home Assistant</title><link>http://tausch.one/posts/2025/11-27-lvgl-page-one/</link><pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate><author>hugo@tausch.one (Hugo Tausch)</author><guid>http://tausch.one/posts/2025/11-27-lvgl-page-one/</guid><description>
 &lt;h2 class="relative group"&gt;Ziel
 &lt;div id="ziel" class="anchor"&gt;&lt;/div&gt;
 &lt;span
