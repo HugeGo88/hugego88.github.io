@@ -6,6 +6,6 @@ title = 'Steuern der Mitsubishi Klimaanlage über ESP Home'
 categories = ['Blog']
 +++
 
-[Youtube Video zum aueinander nehmen](https://www.youtube.com/watch?v=I7IUdrRnxQY)
+[Youtube Video zum auseinander nehmen](https://www.youtube.com/watch?v=I7IUdrRnxQY)
 
 [Github Repo](https://github.com/echavet/MitsubishiCN105ESPHome)

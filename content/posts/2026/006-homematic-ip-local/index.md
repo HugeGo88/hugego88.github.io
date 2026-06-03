@@ -53,3 +53,7 @@ Im oberen Drop Down konnte man nun den Thermostat anwählen welchen man konfigur
 
 Für mich ist die plötzlich aufgetauchte Seitenleiste am Anfang verwirrend und vielleicht auch ein wenig nervig gewesen. "Jetzt will schon wieder jemand meine Aufmerksamkeit, das fehlt mir noch." Doch am Ende muss ich sagen ist es einfach wahnsinnig gut was die Entwickler:innen da abgeliefert haben und die Ansicht verdient es so prominent zumindest einmal initial angezeigt zu werden, damit auch möglich viele sich mal hineinbegeben und damit ihre eigenen Erfahrungen machen können.   
 Weiter bin ich auch super froh, dass sich meine Thermostate nun endlich so verhalten wie ich mir das schon immer gewünscht habe, das wurde aber auch Zeit. Ein Punkt weniger den ich von openHAB schmerzhaft vermisst habe, im Gegenteil, ein gutes Beispiel dafür wie die Community aktiv daran arbeitet Home Assistant noch besser zu machen. 
+
+## Github Repo
+
+[Github Homematic(IP) local](https://github.com/sukramj/homematicip_local). 
