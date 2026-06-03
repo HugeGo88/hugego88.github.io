@@ -132,4 +132,15 @@ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-
 &lt;/span&gt;
 &lt;/h2&gt;
 &lt;p&gt;Für mich ist die plötzlich aufgetauchte Seitenleiste am Anfang verwirrend und vielleicht auch ein wenig nervig gewesen. &amp;ldquo;Jetzt will schon wieder jemand meine Aufmerksamkeit, das fehlt mir noch.&amp;rdquo; Doch am Ende muss ich sagen ist es einfach wahnsinnig gut was die Entwickler:innen da abgeliefert haben und die Ansicht verdient es so prominent zumindest einmal initial angezeigt zu werden, damit auch möglich viele sich mal hineinbegeben und damit ihre eigenen Erfahrungen machen können.&lt;br&gt;
-Weiter bin ich auch super froh, dass sich meine Thermostate nun endlich so verhalten wie ich mir das schon immer gewünscht habe, das wurde aber auch Zeit. Ein Punkt weniger den ich von openHAB schmerzhaft vermisst habe, im Gegenteil, ein gutes Beispiel dafür wie die Community aktiv daran arbeitet Home Assistant noch besser zu machen.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/006-homematic-ip-local/featured.gif"/></item></channel></rss>
+Weiter bin ich auch super froh, dass sich meine Thermostate nun endlich so verhalten wie ich mir das schon immer gewünscht habe, das wurde aber auch Zeit. Ein Punkt weniger den ich von openHAB schmerzhaft vermisst habe, im Gegenteil, ein gutes Beispiel dafür wie die Community aktiv daran arbeitet Home Assistant noch besser zu machen.&lt;/p&gt;
+&lt;h2 class="relative group"&gt;Github Repo
+&lt;div id="github-repo" class="anchor"&gt;&lt;/div&gt;
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#github-repo" aria-label="Anker"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a
+href="https://github.com/sukramj/homematicip_local"
+target="_blank"
+&gt;Github Homematic(IP) local&lt;/a&gt;.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://tausch.one/posts/2026/006-homematic-ip-local/featured.gif"/></item></channel></rss>
