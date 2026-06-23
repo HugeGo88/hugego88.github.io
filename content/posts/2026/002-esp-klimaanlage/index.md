@@ -9,3 +9,5 @@ categories = ['Blog']
 [Youtube Video zum auseinander nehmen](https://www.youtube.com/watch?v=I7IUdrRnxQY)
 
 [Github Repo](https://github.com/echavet/MitsubishiCN105ESPHome)
+
+Amazon: [Link](https://amzn.to/4oIqpSZ)

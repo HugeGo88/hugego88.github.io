@@ -12,6 +12,8 @@ Nachdem wir beim letzten Mal ein 'Hello World' auf dem Display hatten, soll es h
 
 Nur damit ich an dieser Stelle nicht irgendwelche fremden Lorbeeren ernte. Vieles von dem was ich hier in diesem Artikel beschreiben werde ist entweder von dem Youtube Kanal [SmartyVan](https://smartyvan.com) oder zumindest inspiriert davon. Netter weiße hat der Kollege nicht nur Videos gemacht, sondern auch seine komplette [Konfiguration](https://gist.github.com/SmartyVan/9583deff2d1281fb714d711ee8e83a78) auf Github hochgeladen und mit uns geteilt. Da ich es aber schwierig finde, gerade für Anfänger sich in solche eine mächtige Konfiguration einzuarbeiten, werde ich das Schritt für Schritt machen. 
 
+Amazon [Link](https://amzn.to/4vX5AFQ)
+
 ## Anleitung 
 
 ### Seite und Layout

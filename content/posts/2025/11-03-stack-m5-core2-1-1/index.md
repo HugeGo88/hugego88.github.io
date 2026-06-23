@@ -21,6 +21,8 @@ Hier werde ich nun in den nächsten Beiträgen einfach mal meine Erfahrung zu de
 
 ## Hardware
 
+Amazon [Link](https://amzn.to/4vX5AFQ)
+
 ### Basis 
 
 - MPU (Beschleunigungs- und Gyrosensor)

@@ -12,6 +12,8 @@ Auch wenn ich in dem [Video](https://www.youtube.com/watch?v=Z0hs0G1mfqU) von Sm
 
 Klar ESPHome war nichts Neues für mich. Ich werde an dieser Stelle auch nicht auf ESPHome eingehen, da es meiner Meinung nach genug Youtube Videos und Blog Einträge zu diesem Thema gibt. Dennoch war es für mich nicht ganz so einfach wenigstens mal ein 'Hello World' anzuzeigen. Deshalb werde ich hier einfach mal meine Basis Konfiguration zeigen und erklären. 
 
+Amazon: [Link](https://amzn.to/4vX5AFQ)
+
 ## Basis Einstellungen
 
 Nachfolgend werde ich hier die einzelnen 'Komponenten' Schritt für Schritt einrichten. Am Schluss sollten alle Funktionen des M5 Stack Core2 V1.1 eingerichtet sein. Für die Batterie-Erweiterung werde ich dann nochmal einen extra Blogeintrag machen. 

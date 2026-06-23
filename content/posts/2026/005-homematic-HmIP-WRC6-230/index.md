@@ -10,7 +10,8 @@ categories = ['Youtube']
 
 Seit Homematic die Schaltgruppe HmIPW-WRC6 raus gebracht hatte fand ich das ein sehr spannendes Produkt, einziger Nachteil. Die Schaltgruppe funktioniert leider nur mit Homematic IP Wired. Damit war das Thema für leider sehr schnell erledigt. Nirgends habe ich Homematic IP Wired verbaut und da ich auch keine Kabel in der Wohnung verlegen wollte war das für mich ein K.O. Kriterium. Und so musst ich auf den kleinen Bruder ohne LEDs ausweichen, der einzige Vorteil hier, der war Batteriebetrieben, was den Vorteil hat, dass man ihn überall anbringen kann.  
 Anscheinend war ich wohl nicht der einzige der der Meinung war, dass diese Schaltgruppe für Homematic IP (ohne Wired) gemacht gehört. Letzte Woche war es dann soweit, es gab eine Pressemitteilung, dass die Schaltgruppe nun auch nur über Funk (Homematic IP) zu haben ist.  
-Ein klarer Fall für die Kategorie 'Braucht kein Mensch, muss ich haben'. Also in den Warenkorb gelegt, gewartet, angeschlossen und ausprobiert.
+Ein klarer Fall für die Kategorie 'Braucht kein Mensch, muss ich haben'. Also in den Warenkorb gelegt, gewartet, angeschlossen und ausprobiert.  
+Amazon: [Link](https://amzn.to/3SkBNsc)
 
 ## Mein Setup
 
